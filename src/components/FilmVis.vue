@@ -5,14 +5,19 @@
     </svg>
     <div id="focusbox">
       <h1> {{ focused.title }} </h1>
-      <b> Year </b> {{ focused.year }} <br>
-      <b> Length </b> {{ focused.length }} <br>
-      <b> Subject </b> {{ focused.subject }} <br>
-      <b> Actor </b> {{ focused.actor }} <br>
-      <b> Actress </b> {{ focused.actress }} <br>
-      <b> Director </b> {{ focused.director }} <br>
-      <b> Popularity </b> {{ focused.popularity }} <br>
-      <b> Awards </b> {{ focused.awards }}<br>
+      <table>
+      <tr><td><b> Year        </b></td><td> {{ focused.year }}        </td></tr>
+      <tr><td><b> Length      </b></td><td> {{ focused.length }}      </td></tr>
+      <tr><td><b> Subject     </b></td><td> {{ focused.subject }}     </td></tr>
+      <tr><td><b> Popularity  </b></td><td> {{ focused.popularity }}  </td></tr>
+      <tr><td><b> Awards      </b></td><td> {{ focused.awards }}      </td></tr>
+      </table>
+      <table>
+        <tr> <th>         </th> <th>Director                    </th> <th>Actor                       </th> <th>Actress                     </th> </tr>
+        <tr> <th>Name     </th> <td> {{ focused.director }}     </td> <td> {{ focused.actor }}        </td> <td> {{ focused.actress }}      </td> </tr>
+        <tr> <th>Genres   </th> <td> <svg id="dir-genre"></svg> </td> <td> <svg id="atr-genre"></svg> </td> <td> <svg id="ats-genre"></svg> </td> </tr>
+        <tr> <th>Ratings  </th> <td> <svg id="dir-rate"></svg>  </td> <td> <svg id="atr-rate"></svg>  </td> <td> <svg id="ats-rate"></svg>  </td> </tr>
+      </table>
     </div>
     <!--<div>
       <h1> Categories </h1>
@@ -64,6 +69,10 @@ export default {
       vis3: null,
       dataGroup: null,
       categories: new Set(),
+      genreToColor: {},
+      actors: {},
+      actresses: {},
+      directors: {},
       focused: {
          year: "",
          length: "",
@@ -74,7 +83,7 @@ export default {
          director: "",
          popularity: "",
          awards: "",
-      }
+      },
     };
   },
   methods: {
@@ -86,7 +95,6 @@ export default {
     },
     renderFilms: function() {
         let data = this.data;
-        let _this = this;
 
         let xScale = d3.scaleLinear()
             .domain(d3.extent(data, (d) => d[this.xProp]))
@@ -111,9 +119,7 @@ export default {
             .style('fill', (d) => {
               return d3.color(colorScale(d.subject)).copy({ opacity: alphaScale(d[this.colorProp]) })
             })
-            .on('mouseover', function(d) {
-              _this.focused = d;
-            })
+            .on('mouseover', this.focusMovie)
 
         circles.exit().remove();
     },
@@ -134,7 +140,34 @@ export default {
         d.length = +d.length;
         d.popularity = +d.popularity;
         this.categories.add(d.subject)
+        this.recordPerson(this.directors, d.director, d)
+        this.recordPerson(this.actors,    d.actor   , d)
+        this.recordPerson(this.actresses, d.actress , d)
         return d;
+    },
+    recordPerson: function(personType, personName, d) {
+      if (personType[personName] === undefined) {
+        personType[personName] = {
+          stars: [0,0,0,0,0],
+          genres: {},
+          movies: 0
+        };
+      }
+
+      personType[personName].movies += 1;
+
+      // Add this movie to the number of popular movies.
+      personType[personName].stars[Math.floor((d.popularity / 100) * 5)] += 1;
+
+      // Add this genre to the list of genres.
+      if (personType[personName].genres[d.subject] === undefined) {
+        personType[personName].genres[d.subject] = 1;
+      } else {
+        personType[personName].genres[d.subject] += 1;
+      }
+    },
+    focusMovie: function(d) {
+      this.focused = d
     }
   }
 }
