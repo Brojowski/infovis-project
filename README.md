@@ -1,4 +1,4 @@
-# hw2-d3
+# Info-Vis Project
 
 ## Project setup
 ```
