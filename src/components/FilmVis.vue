@@ -59,17 +59,18 @@ export default {
     console.log((this.categories))
   },
   data: () => {
+    let pieRadius = 50;
     return {
       data: [],
       svgWidth: 750,
       svgHeight: 500,
+      pieRadius: pieRadius,
       xProp: "year",
       yProp: "popularity"  ,
       colorProp: "length",
       vis3: null,
       dataGroup: null,
       categories: new Set(),
-      genreToColor: {},
       actors: {},
       actresses: {},
       directors: {},
@@ -84,6 +85,8 @@ export default {
          popularity: "",
          awards: "",
       },
+      pie: d3.pie().sort(null),
+      arc: d3.arc().innerRadius(0).outerRadius(pieRadius)
     };
   },
   methods: {
@@ -146,6 +149,8 @@ export default {
         return d;
     },
     recordPerson: function(personType, personName, d) {
+      if (personName === '') return;
+
       if (personType[personName] === undefined) {
         personType[personName] = {
           stars: [0,0,0,0,0],
@@ -168,6 +173,57 @@ export default {
     },
     focusMovie: function(d) {
       this.focused = d
+      this.drawPersonGenre(this.directors, d.director, '#dir-genre')
+      this.drawPersonGenre(this.actors   , d.actor   , '#atr-genre')
+      this.drawPersonGenre(this.actresses, d.actress , '#ats-genre')
+    },
+    drawPersonGenre: function(personType, personName, svgId) {
+        d3.select(svgId).html('')
+        if (personName === '') return;
+
+        // Create dummy data
+        var data = personType[personName].genres;
+
+        // set the dimensions and margins of the graph
+        var width = 100,
+            height = 100,
+            margin = 8;
+
+        // The radius of the pieplot is half the width or half the height (smallest one). I subtract a bit of margin.
+        var radius = (Math.min(width, height) / 2 - margin)
+
+        // append the svg object to the div called 'my_dataviz'
+        var svg = d3.select(svgId)
+          .append("svg")
+            .attr("width", width)
+            .attr("height", height)
+          .append("g")
+            .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+
+        // set the color scale
+        var color = d3.scaleOrdinal()
+          .domain(this.categories)
+          .range(d3.schemeCategory10)
+
+        // Compute the position of each group on the pie:
+        var pie = d3.pie()
+          .value(function(d) {return d.value; })
+        var data_ready = pie(d3.entries(data))
+
+        // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
+        svg
+          .selectAll('whatever')
+          .data(data_ready)
+          .enter()
+          .append('path')
+          .attr('d', d3.arc()
+            .innerRadius(0)
+            .outerRadius(radius)
+          )
+          .attr('fill', function(d){ return(color(d.data.key)) })
+          .attr("stroke", "black")
+          .style("stroke-width", "2px")
+          .style("opacity", 0.7)
     }
   }
 }
