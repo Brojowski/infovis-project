@@ -6,11 +6,11 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1991,136,Terminator 2,Action,"Schwarzenegger, A.","Hamilton, Linda","Cameron, J.",8,No,T2.gif
 1993,65,John Cleese on How to Irritate People,Comedy,"Cleese, John","Booth, Connie",,62,No,NicholasCage.gif
 1987,103,Au Revoir les Enfants,Drama,"Manesse, Gaspard","Racette, Francine","Malle, Louis",35,No,NicholasCage.gif
-1983,128,The Ballad of Narayama,Drama,,Missing,"Imamura, Shohei",15,No,NicholasCage.gif
+1983,128,The Ballad of Narayama,Drama,,,"Imamura, Shohei",15,No,NicholasCage.gif
 1990,138,Cyrano De Bergerac,Drama,"Depardieu, Gerard","Brochet, Anne","Rappeneau, Jean-Paul",86,No,NicholasCage.gif
 1990,107,Green Card,Comedy,"Depardieu, Gerard","MacDowell, Andie","Weir, Peter",25,No,NicholasCage.gif
 1987,118,Hope & Glory,War,"Hayman, David","Miles, Sarah","Boorman, John",3,No,NicholasCage.gif
-1982,122,Missing,Drama,"Lemmon, Jack","Spacek, Sissy","Costa-Gavras,",30,No,NicholasCage.gif
+1982,122,,Drama,"Lemmon, Jack","Spacek, Sissy","Costa-Gavras,",30,No,NicholasCage.gif
 1986,125,The Mission,Drama,"Niro, Robert De","Lunghi, Cherie","Joffe, Roland",20,No,NicholasCage.gif
 1987,101,My Life As a Dog,Comedy,"Glanzelius, Anton",,"Hallstrom, Lasse",21,No,NicholasCage.gif
 1984,150,"Paris, Texas",Drama,"Stanton, Harry Dean","Kinski, Nastassia",Wim Wenders,27,No,NicholasCage.gif
@@ -29,8 +29,8 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1992,95,Alan & Naomi,Drama,"Haas, Lukas","Aquino, Vanessa","Vanwagenen, Sterling",3,No,NicholasCage.gif
 1992,115,Alien Three,Science Fiction,"Dutton, Charles","Weaver, Sigourney","Fincher, David",25,No,weaver.gif
 1992,88,Amazon,Action,"Davi, Robert","Vaananen, Kari","Kaurismaki, Mika",30,No,NicholasCage.gif
-1992,58,Baby Don't Cry,Drama,,Missing,"Burch, Claire",31,No,NicholasCage.gif
-1992,88,Back in the U S. S. R.,Action,"Negoda, Natalya",,Missing,61,No,NicholasCage.gif
+1992,58,Baby Don't Cry,Drama,,,"Burch, Claire",31,No,NicholasCage.gif
+1992,88,Back in the U S. S. R.,Action,"Negoda, Natalya",,,61,No,NicholasCage.gif
 1992,123,Basic Instinct,Mystery,"Douglas, Michael","Stone, Sharon","Verhoeven, Paul",41,No,NicholasCage.gif
 1992,128,Cape Fear,Mystery,"Niro, Robert De","Lange, Jessica","Scorsese, Martin",7,No,NicholasCage.gif
 1992,121,Christopher Columbus: The Discovery,Action,"Corraface, George","Ward, Rachel","Glen, John",5,No,NicholasCage.gif
@@ -46,7 +46,7 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1992,84,Dragonfight,Drama,"D'Zar, Robert","MacLaren, Fawna",,71,No,NicholasCage.gif
 1992,125,Final Analysis,Drama,"Gere, Richard","Basinger, Kim","Joanou, Phil",50,No,NicholasCage.gif
 1990,98,Almost an Angel,Comedy,"Hogan, Paul","Kozlowski, Linda","Cornell, John",14,No,NicholasCage.gif
-1990,98,Another Forty-Eight Hours,Action,"Murphy, Eddie",,Missing,54,No,NicholasCage.gif
+1990,98,Another Forty-Eight Hours,Action,"Murphy, Eddie",,,54,No,NicholasCage.gif
 1987,92,Back to the Beach,Comedy,"Avalon, Frankie","Funicello, Annette","Hobbs, Lyndall",45,No,NicholasCage.gif
 1987,103,Beverly Hills Cop II,Comedy,"Murphy, Eddie","Nielsen, Brigitte","Scott, Tony",37,No,NicholasCage.gif
 1988,90,Big Top Pee-wee,Comedy,"Kristofferson, Kris","Herman, Pee-wee","Kleiser, Randal",17,No,NicholasCage.gif
@@ -66,13 +66,13 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1989,118,Harlem Nights,Comedy,"Murphy, Eddie",,"Murphy, Eddie",11,No,NicholasCage.gif
 1986,108,Heartburn,Comedy,"Nicholson, Jack","Streep, Meryl","Nichols, Mike",57,No,JackNicholson.gif
 1987,93,Hot Pursuit,Drama,"Cusack, John","Gazelle, Wendy","Lisberger, Steven",44,No,NicholasCage.gif
-1986,52,Howie Mandel's North American Watusi Tour,Comedy,"Mandel, Howie",,Missing,65,No,NicholasCage.gif
-1986,49,Jay Leno: The American Dream,Comedy,"Leno, Jay",,Missing,67,No,NicholasCage.gif
+1986,52,Howie Mandel's North American Watusi Tour,Comedy,"Mandel, Howie",,,65,No,NicholasCage.gif
+1986,49,Jay Leno: The American Dream,Comedy,"Leno, Jay",,,67,No,NicholasCage.gif
 1989,86,Let It Ride,Comedy,"Dreyfuss, Richard","Garr, Teri","Pytka, Joe",88,No,NicholasCage.gif
 1989,107,Major League,Comedy,"Sheen, Charlie","Whitton, Margaret","S, David",64,No,NicholasCage.gif
-1986,60,"Monty Python's Flying Circus, Vol 1.",Comedy,"Chapman, Graham",,Missing,24,No,NicholasCage.gif
-1986,59,"Monty Python's Flying Circus, Vol 2.",Comedy,"Chapman, Graham",,Missing,79,No,NicholasCage.gif
-1986,58,"Monty Python's Flying Circus, Vol 3.",Comedy,"Chapman, Graham",,Missing,63,No,NicholasCage.gif
+1986,60,"Monty Python's Flying Circus, Vol 1.",Comedy,"Chapman, Graham",,,24,No,NicholasCage.gif
+1986,59,"Monty Python's Flying Circus, Vol 2.",Comedy,"Chapman, Graham",,,79,No,NicholasCage.gif
+1986,58,"Monty Python's Flying Circus, Vol 3.",Comedy,"Chapman, Graham",,,63,No,NicholasCage.gif
 1988,90,The Naked Gun: From the Files of Police Squad!,Comedy,"Nielsen, Leslie","Presley, Priscilla","Zucker, David",9,No,NicholasCage.gif
 1991,108,Necessary Roughness,Comedy,"Bakula, Scott","Ireland, Kathy","Dragoti, Stan",60,No,NicholasCage.gif
 1989,90,Never on Tuesday,Drama,"Lauer, Andrew","Christian, Claudia","Rifkin, Adam",77,No,NicholasCage.gif
@@ -130,7 +130,7 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1987,85,Hot Child in the City,Mystery,"Prysirr, Geof","Hendrix, Leah Ayres","Florea, John",0,No,NicholasCage.gif
 1992,97,Hunting,Mystery,"Savage, John","Armstrong, Kerry","Howson, Frank",68,No,NicholasCage.gif
 1991,96,Intimate Stranger,Mystery,"Russo, James","Harry, Deborah","Holzman, Allan",23,No,NicholasCage.gif
-1988,40,"Just Missed, Dammit!",Action,,Missing,,36,No,NicholasCage.gif
+1988,40,"Just Missed, Dammit!",Action,,,,36,No,NicholasCage.gif
 1992,97,Killer Image.,Mystery,"Ironside, Michael","Errickson, Krista","Winning, David",8,No,NicholasCage.gif
 1988,102,The Night Train to Katmandu,Action,"Roberts, Pernell","Jovovich, Milla","Wiemer, Robert",43,No,NicholasCage.gif
 1988,97,The Presidio,Action,"Connery, Sean","Ryan, Meg","Hyams, Peter",4,No,NicholasCage.gif
@@ -140,10 +140,10 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1986,109,Young Sherlock Holmes,Mystery,"Rowe, Nicholas","Ward, Sophie","Levinson, Barry",16,No,NicholasCage.gif
 1990,85,Crash & Burn,Science Fiction,"Ganus, Paul","Ward, Megan","Band, Charles",75,No,NicholasCage.gif
 1988,90,Dr Alien.,Science Fiction,"Jacoby, Billy","Barash, Olivia","DeCoteau, David",70,No,NicholasCage.gif
-1990,103,Meridian,Science Fiction,,Missing,,16,No,NicholasCage.gif
+1990,103,Meridian,Science Fiction,,,,16,No,NicholasCage.gif
 1989,90,Puppet Master,Science Fiction,"LeMat, Paul","Crampton, Barbara","Schmoeller, David",20,No,NicholasCage.gif
 1991,110,Star Trek VI: The Undiscovered Country,Science Fiction,"Shatner, William","Nichols, Nichelle","Meyer, Nicholas",11,No,NicholasCage.gif
-1990,101,Act of Piracy,Mystery,"Busey, Gary",,Missing,74,No,NicholasCage.gif
+1990,101,Act of Piracy,Mystery,"Busey, Gary",,,74,No,NicholasCage.gif
 1988,103,Appointment with Death,Mystery,"Ustinov, Peter","Bacall, Lauren","Donaggio, Michael Winner",75,No,NicholasCage.gif
 1989,126,Batman,Action,"Nicholson, Jack","Basinger, Kim","Burton, Tim",14,No,JackNicholson.gif
 1987,91,Big Shots,Action,"Busker, Ricky",,"Mandel, Robert",5,No,NicholasCage.gif
@@ -162,7 +162,7 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1988,120,Frantic,Mystery,"Ford, Harrison","Buckley, Betty","Polanski, Roman",17,No,NicholasCage.gif
 1988,96,Glitz,Mystery,"Smits, Jimmy","Post, Markie",,9,No,NicholasCage.gif
 1988,95,Gor,Action,"Reed, Oliver","Ferratti, Rebecca","Kiersch, Fritz",2,No,NicholasCage.gif
-1987,97,Hard Ticket to Hawaii,Action,,Missing,,55,No,NicholasCage.gif
+1987,97,Hard Ticket to Hawaii,Action,,,,55,No,NicholasCage.gif
 1990,96,Hard to Kill,Action,"Seagal, Steven","LeBrock, Kelly","Malmuth, Bruce",85,No,NicholasCage.gif
 1992,86,Hurricane Smith,Action,"Weathers, Carl","Delaney, Cassandra","Budds, Colin",16,No,NicholasCage.gif
 1991,89,If Looks Could Kill,Action,"Grieco, Richard","Hunt, Linda","Wilmington, Michael",10,No,NicholasCage.gif
@@ -176,20 +176,20 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1986,100,The Morning After,Mystery,"Bridges, Jeff","Fonda, Jane","Lumet, Sidney",6,No,NicholasCage.gif
 1989,109,Next of Kin,Mystery,"Swayze, Patrick",,"Irvin, John",63,No,NicholasCage.gif
 1986,101,"Ojo por Ojo, Diente por Diente",Action,"Pare, Michael",,"T, Craig",87,No,NicholasCage.gif
-1991,91,Out for Justice,Action,"Seagal, Steven",,Missing,2,No,NicholasCage.gif
+1991,91,Out for Justice,Action,"Seagal, Steven",,,2,No,NicholasCage.gif
 1987,91,Penitentiary III,Action,"Kennedy, Leon Isaac",,"Fanaka, Jamaa",82,No,NicholasCage.gif
 1989,91,Penn & Teller Get Killed,Comedy,"Teller, Penn &","Clarke, Caitlin",,12,No,NicholasCage.gif
 1989,99,Picasso Trigger,Action,"Bond, Steve","Speir, Dona","Sidaris, Andy",20,No,NicholasCage.gif
 1989,122,Pink Cadillac,Comedy,"Eastwood, Clint","Peters, Bernadette","Eastwood, Clint",12,No,NicholasCage.gif
-1990,127,Presumed Innocent,Mystery,,Missing,"J, Alan",25,No,NicholasCage.gif
-1990,92,Primal Rage,Mystery,"Lowe, Patrick",,Missing,3,No,NicholasCage.gif
+1990,127,Presumed Innocent,Mystery,,,"J, Alan",25,No,NicholasCage.gif
+1990,92,Primal Rage,Mystery,"Lowe, Patrick",,,3,No,NicholasCage.gif
 1987,91,The Quick & the Dead,Westerns,"Elliott, Sam","Capshaw, Kate","Day, Robert",40,No,NicholasCage.gif
 1986,94,RAD,Action,"Allen, Bill","Loughlin, Lori","Needham, Hal",75,No,NicholasCage.gif
 1991,144,Robin Hood: Prince of Thieves,Action,"Costner, Kevin","Mastrantonio, Mary Elizabeth","Costner, Kevin",8,No,NicholasCage.gif
 1990,121,The Rookie,Action,"Eastwood, Clint","Braga, Sonia","Eastwood, Clint",48,No,NicholasCage.gif
 1987,98,Russkies,Action,"Hubley, Whip",,"Rosenthal, Rick",87,No,NicholasCage.gif
 1988,91,Sala de Espera al Infierno,Action,"Eastwood, Clint","Clarkson, Patricia","Horn, Buddy Van",50,No,NicholasCage.gif
-1990,,Seven-Year Storm,Action,Missing,,Missing,63,No,NicholasCage.gif
+1990,,Seven-Year Storm,Action,,,,63,No,NicholasCage.gif
 1987,106,The Squeeze,Action,"Keach, Stacy","White, Carol","Apted, Michael",23,No,NicholasCage.gif
 1988,100,Storm,Action,"Palfy, David","Bahtia, Stacy Christensen","Winning, David",61,No,NicholasCage.gif
 1987,90,Superman IV: Busca de la Paz,Action,"Reeve, Christopher","Kidder, Margot","J, Sidney",86,No,NicholasCage.gif
@@ -223,12 +223,12 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1990,105,Guilty by Suspicion,Drama,"Niro, Robert De","Bening, Annette","Winkler, Irwin",88,No,NicholasCage.gif
 1986,90,Hard Choices,Drama,"McCleery, Gary","Klenck, Margaret","King, Rick",41,No,NicholasCage.gif
 1986,130,Heartbreak Ridge,War,"Eastwood, Clint","Mason, Marsha","Eastwood, Clint",34,No,NicholasCage.gif
-1987,95,Hearts of Fire,Drama,"Everett, Rupert",,Missing,25,No,NicholasCage.gif
+1987,95,Hearts of Fire,Drama,"Everett, Rupert",,,25,No,NicholasCage.gif
 1988,91,In a Shallow Grave,Drama,"Biehn, Michael","Mueller, Maureen","Bowser, Kenneth",72,No,NicholasCage.gif
 1989,116,In Country,Drama,"Willis, Bruce","Lloyd, Emily","Jewison, Norman",76,No,NicholasCage.gif
 1988,155,Indigo Autumn & Lilac Dream,Drama,"Singer, Marc","Schrage, Lisa","Voizard, Stuart Gillard, Marc",72,No,NicholasCage.gif
 1987,95,The Kitchen Toto,Drama,"Peck, Bob","Logan, Phyllis","Hook, Harry",41,No,NicholasCage.gif
-1987,90,Knights & Emeralds,Drama,,Missing,"Emes, Ian",3,No,NicholasCage.gif
+1987,90,Knights & Emeralds,Drama,,,"Emes, Ian",3,No,NicholasCage.gif
 1989,109,Lean on Me,Drama,"Freeman, Morgan","Todd, Beverly","G, John",51,No,NicholasCage.gif
 1988,360,Little Dorrit,Drama,"Jacobi, Derek","Pickering, Sarah","Edzard, Christine",12,No,NicholasCage.gif
 1988,120,The Lonely Passion of Judith Hearne,Drama,"Hoskins, Bob","Smith, Maggie","Clayton, Jack",24,No,NicholasCage.gif
@@ -237,10 +237,10 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1987,130,Matewan,Drama,"Jones, James Earl","McDonnell, Mary","Sayles, John",81,No,NicholasCage.gif
 1987,139,Maurice,Drama,"Wilby, James","Parfitt, Judy","Ivory, James",45,No,NicholasCage.gif
 1990,115,Men Don't Leave,Drama,"O'Donnell, Chris","Lange, Jessica","Brickman, Paul",61,No,NicholasCage.gif
-1989,115,Men Don't Leave,Drama,,Missing,,85,No,NicholasCage.gif
+1989,115,Men Don't Leave,Drama,,,,85,No,NicholasCage.gif
 1988,108,Miles from Home,Drama,"Gere, Richard","Ivey, Judith","Sinise, Gary",88,No,NicholasCage.gif
-1988,108,Miles from Home,Drama,,Missing,,50,No,NicholasCage.gif
-1988,108,Miles from Home,Drama,,Missing,,65,No,NicholasCage.gif
+1988,108,Miles from Home,Drama,,,,50,No,NicholasCage.gif
+1988,108,Miles from Home,Drama,,,,65,No,NicholasCage.gif
 1988,92,A Month in the Country,Drama,"Firth, Colin",,"O'Connor, Pat",57,No,NicholasCage.gif
 1991,101,New Jack City,Drama,"Peebles, Mario Van",,"Lee, Spike",80,No,NicholasCage.gif
 1991,106,Not Without My Daughter,Drama,,"Field, Sally",,31,No,NicholasCage.gif
@@ -251,7 +251,7 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1986,105,Ratboy,Drama,"Townsend, Robert","Locke, Sondra","Locke, Sondra",1,No,NicholasCage.gif
 1988,120,Relaciones Peligrosas,Drama,"Close, Glenn","Pfeiffer, Michelle","Frears, Stephen",25,No,MichellePfeiffer.gif
 1988,116,Running on Empty,Drama,"Hirsch, Judd","Lahti, Christine","Lumet, Sidney",2,No,NicholasCage.gif
-1988,96,Salsa: The Motion Picture,Drama,"Rosa, Robby",,Missing,26,No,NicholasCage.gif
+1988,96,Salsa: The Motion Picture,Drama,"Rosa, Robby",,,26,No,NicholasCage.gif
 1987,100,Sammy & Rosie Get Laid,Drama,"Din, Ayub Khan","Barber, Frances","Frears, Stephen",6,No,NicholasCage.gif
 1989,119,See You in the Morning,Drama,"Bridges, Jeff","Krige, Alice",,38,No,NicholasCage.gif
 1987,118,Shy People,Drama,"Philbin, John","Clayburgh, Jill","Konchalovsky, Andrei",7,No,NicholasCage.gif
@@ -264,10 +264,10 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1990,104,"Wait Until Spring, Bandini",Drama,"Mantegna, Joe","Dunaway, Faye",,20,No,NicholasCage.gif
 1990,102,Wait Until Spring Bandini,Drama,"Mantegna, Joe","Muti, Ornella","Deruddere, Dominique",29,No,NicholasCage.gif
 1990,112,"White Hunter, Black Heart",Drama,"Eastwood, Clint","Berenson, Marisa","Eastwood, Clint",27,No,NicholasCage.gif
-1990,112,"White Hunter, Black Heart",Drama,,Missing,,15,No,NicholasCage.gif
-1990,112,"White Hunter, Black Heart",Drama,,Missing,,17,No,NicholasCage.gif
+1990,112,"White Hunter, Black Heart",Drama,,,,15,No,NicholasCage.gif
+1990,112,"White Hunter, Black Heart",Drama,,,,17,No,NicholasCage.gif
 1988,96,Baja Oklahoma,Comedy,"Coyote, Peter","Warren, Lesley Ann","Roth, Bobby",71,No,NicholasCage.gif
-1987,102,Burglar,Comedy,,Missing,,85,No,NicholasCage.gif
+1987,102,Burglar,Comedy,,,,85,No,NicholasCage.gif
 1988,89,Business As Usual,Comedy,"Thaw, John","Jackson, Glenda","Lezli-An,",17,No,NicholasCage.gif
 1988,103,Caddyshack 2,Comedy,"Mason, Jackie",,"Arkush, Allan",79,No,NicholasCage.gif
 1989,93,Cookie,Comedy,"Falk, Peter","Wiest, Dianne","Seidelman, Susan",43,No,NicholasCage.gif
@@ -286,17 +286,17 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1988,94,Her Alibi,Comedy,"Selleck, Tom","Porizkova, Paulina","Beresford, Bruce",80,No,NicholasCage.gif
 1988,83,Hot to Trot,Comedy,"Goldthwait, Bob","Madsen, Virginia","Dinner, Michael",78,No,NicholasCage.gif
 1990,102,Joe Versus the Volcano,Comedy,"Hanks, Tom","Ryan, Meg","Patrick, John",17,No,NicholasCage.gif
-1986,90,Knights & Emeralds,Comedy,,Missing,,52,No,NicholasCage.gif
+1986,90,Knights & Emeralds,Comedy,,,,52,No,NicholasCage.gif
 1986,94,Un Loco Verano,Comedy,"Cusack, John","Moore, Demi","Holland, Steve",26,No,NicholasCage.gif
 1987,102,Made in Heaven,Comedy,"Hutton, Timothy","McGillis, Kelly","Rudolph, Alan",62,No,NicholasCage.gif
 1991,120,Meeting Venus,Comedy,"Close, Glenn","Steege, Johanna Ter","Szabo, Istvan",74,No,NicholasCage.gif
-1989,115,Men Don't Leave,Drama,,Missing,,22,No,NicholasCage.gif
+1989,115,Men Don't Leave,Drama,,,,22,No,NicholasCage.gif
 1986,91,Mr Love.,Comedy,"Jackson, Barry","Tyzack, Margaret","Battersby, Roy",10,No,NicholasCage.gif
-1986,87,Monster in the Closet,Comedy,,Missing,,61,No,NicholasCage.gif
+1986,87,Monster in the Closet,Comedy,,,,61,No,NicholasCage.gif
 1987,97,Los Muchachos Perdidos,Horror,"Patric, Jason","Wiest, Dianne",,26,No,NicholasCage.gif
 1990,96,My Blue Heaven,Comedy,"Martin, Steve",,"Ross, Herbert",63,No,NicholasCage.gif
 1989,97,National Lampoon's Christmas Vacation,Comedy,"Chase, Chevy","D'Angelo, Beverly","S, Jeremiah",81,No,NicholasCage.gif
-1986,108,Nobody's Fool,Comedy,,Missing,"Purcell, Evelyn",53,No,NicholasCage.gif
+1986,108,Nobody's Fool,Comedy,,,"Purcell, Evelyn",53,No,NicholasCage.gif
 1990,97,The Novice,Comedy,"Sharif, Omar","Dombasle, Arielle",,72,No,NicholasCage.gif
 1986,84,Police Academy 3: Back in Training,Comedy,"Guttenberg, Steve","Ramsey, Marion","Paris, Jerry",6,No,NicholasCage.gif
 1988,90,Police Academy 5: Assignment Miami Beach,Comedy,"Gaynes, George","Ramsey, Marion","Myerson, Alan",59,No,NicholasCage.gif
@@ -310,10 +310,10 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1987,95,Surrender,Comedy,"Caine, Michael","Field, Sally","Belson, Jerry",84,No,NicholasCage.gif
 1988,99,Tokyo Pop,Comedy,"Tadokoro, Yutaka","Hamilton, Carrie","Kuzui, Fran Rubel",2,No,NicholasCage.gif
 1986,97,Trick or Treat,Comedy,"Osbourne, Ozzy",,"Smith, Charles Martin",53,No,NicholasCage.gif
-1986,97,Trick or Treat,Comedy,,Missing,,3,No,NicholasCage.gif
+1986,97,Trick or Treat,Comedy,,,,3,No,NicholasCage.gif
 1986,89,True Stories,Comedy,"Goodman, John","Kurtz, Swoosie","Byrne, David",79,No,NicholasCage.gif
 1990,83,U S. Sub Standard.,Comedy,"Pullman, Bill","Schaal, Wendy",,27,No,NicholasCage.gif
-1990,,Valkenvania,Comedy,"Chase, Chevy",,Missing,82,No,NicholasCage.gif
+1990,,Valkenvania,Comedy,"Chase, Chevy",,,82,No,NicholasCage.gif
 1990,92,The Witches,Science Fiction,"Fisher, Jasen","Zetterling, Mai","Roeg, Nicolas",18,No,NicholasCage.gif
 1989,91,Young Einstein,Comedy,"Serious, Yahoo","Wilson, Pee-Wee","Serious, Yahoo",47,No,NicholasCage.gif
 1987,91,Young Love: Lemon Popsicle Seven,Comedy,"Katzur, Yftach","Noy, Zachi","Bennett, Walter",47,No,NicholasCage.gif
@@ -331,18 +331,18 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1973,106,Dillinger,Drama,"Oates, Warren","Phillips, Michelle","Milius, John",83,No,NicholasCage.gif
 1976,99,Inserts,Drama,"Dreyfuss, Richard","Harper, Jessica","Byrum, John",85,No,NicholasCage.gif
 1989,114,Once Around,Comedy,"Dreyfuss, Richard","Hunter, Holly","Hallstrom, Lasse",68,No,NicholasCage.gif
-1989,108,Prisoner of Honor.,Drama,,Missing,"Russell, Ken",7,No,NicholasCage.gif
+1989,108,Prisoner of Honor.,Drama,,,"Russell, Ken",7,No,NicholasCage.gif
 1974,90,The Second Coming of Suzanne.,Drama,"Dreyfuss, Richard","Locke, Sondra","Barry, Michael",21,No,NicholasCage.gif
 1987,115,Stakeout,Comedy,"Dreyfuss, Richard","Stowe, Madeleine","Badham, John",13,No,NicholasCage.gif
-1991,99,What about Bob?,Comedy,"Murray, Bill",,Missing,6,No,NicholasCage.gif
+1991,99,What about Bob?,Comedy,"Murray, Bill",,,6,No,NicholasCage.gif
 1981,119,"Whose Life Is It, Anyway?",Drama,"Dreyfuss, Richard","Lahti, Christine","Badham, John",62,No,NicholasCage.gif
 1991,135,The Doors,Drama,"Kilmer, Val","Ryan, Meg","Stone, Oliver",60,No,NicholasCage.gif
 1981,104,The Hand,Horror,"Caine, Michael","Marcovicci, Andrea","Stone, Oliver",44,No,NicholasCage.gif
-1992,206,JFK,Drama,,Missing,"Stone, Oliver",8,No,NicholasCage.gif
+1992,206,JFK,Drama,,,"Stone, Oliver",8,No,NicholasCage.gif
 1986,122,Salvador,Drama,"Woods, James","Gibb, Cynthia","Stone, Oliver",77,No,NicholasCage.gif
 1989,93,Seizure,Horror,"Frid, Jonathan","Pickles, Christina","Stone, Oliver",59,No,NicholasCage.gif
 1985,116,Back to the Future,Comedy,"Fox, Michael J.","Thompson, Lea","Zemeckis, Robert",9,No,NicholasCage.gif
-1989,116,Back to the Future II,Comedy,"Fox, Michael J.",,Missing,65,No,NicholasCage.gif
+1989,116,Back to the Future II,Comedy,"Fox, Michael J.",,,65,No,NicholasCage.gif
 1990,108,"Bright Lights, Big City",Drama,"Fox, Michael J.","Wiest, Dianne","Bridges, James",30,No,NicholasCage.gif
 1982,93,Class of 1984,Drama,"King, Perry",,"L, Mark",23,No,NicholasCage.gif
 1987,110,The Secret of My Success,Comedy,"Fox, Michael J.","Slater, Helen","Ross, Herbert",5,No,NicholasCage.gif
@@ -352,7 +352,7 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1955,92,Il Bidone,Drama,"Crawford, Broderick","Masina, Guilietta","Fellini, Federico",70,No,NicholasCage.gif
 1961,140,La Dolce Vita,Drama,"Mastroianni, Marcello","Ekberg, Anita","Fellini, Frederico",20,No,NicholasCage.gif
 1970,130,Fellini Satyricon,Drama,"Potter, Martin","Keller, Hiram","Fellini, Federico",88,No,NicholasCage.gif
-1991,129,Fellini's Roma,Comedy,,Missing,"Fellini, Federico",28,No,NicholasCage.gif
+1991,129,Fellini's Roma,Comedy,,,"Fellini, Federico",28,No,NicholasCage.gif
 1993,,Ginger & Fred,Comedy,"Mastroianni, Marcello",,"Fellini, Federico",29,No,NicholasCage.gif
 1981,116,Absence of Malice,Drama,"Newman, Paul","Field, Sally","Pollack, Sydney",76,No,NicholasCage.gif
 1977,124,Bobby Deerfield,Drama,"Pacino, Al","Keller, Marthe","Pollack, Sydney",36,No,NicholasCage.gif
@@ -372,14 +372,14 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1986,104,"Best of Times, The",Comedy,"Williams, Robin","Reed, Pamela","Spottiswoode, Roger",88,No,NicholasCage.gif
 1990,97,Cadillac Man,Comedy,"Williams, Robin","Reed, Pamela","Donaldson, Roger",28,No,NicholasCage.gif
 1982,,"Catch a Rising Star, Tenth Anniversary",Comedy,"Belzer, Richard","Benatar, Pat",,18,No,NicholasCage.gif
-1977,75,Comedy Tonight,Comedy,"Williams, Robin",,Missing,18,No,NicholasCage.gif
+1977,75,Comedy Tonight,Comedy,"Williams, Robin",,,18,No,NicholasCage.gif
 1986,120,Comic Relief,Comedy,"Crystal, Billy","Goldberg, Whoopi",,69,No,NicholasCage.gif
 1989,84,"Dear America, Letters Home from Vietnam",War,"De Niro, Robert","Turner, Kathleen","Couturie, Bill",57,No,NicholasCage.gif
 1982,92,An Evening with Robin Williams,Comedy,"Williams, Robin",,"Mischer, Don",68,No,NicholasCage.gif
 1991,60,Garrison Keillor's Home,Comedy,"Keillor, Garrison",,"Sevush, Herb",6,No,NicholasCage.gif
 1987,120,"Good Morning, Vietnam",Comedy,"Williams, Robin",,"Levinson, Barry",37,No,NicholasCage.gif
 1991,142,Hook,Action,"Williams, Robin","Roberts, Julia","Spielberg, Steven",4,No,NicholasCage.gif
-1991,65,Robin Williams,Comedy,"Williams, Robin",,Missing,4,No,NicholasCage.gif
+1991,65,Robin Williams,Comedy,"Williams, Robin",,,4,No,NicholasCage.gif
 1991,60,Super Duper Bloopers,Comedy,"Cooper, Gary","Taylor, Elizabeth",,21,No,NicholasCage.gif
 1983,102,"Survivors, The",Comedy,"Matthau, Walter",,"Ritchie, Michael",52,No,NicholasCage.gif
 1989,55,"Will Rogers, Look Back in Laughter",Comedy,"Williams, Robin",,"Leo, Malcolm",6,No,NicholasCage.gif
@@ -392,7 +392,7 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1976,94,"Front, The",Drama,"Allen, Woody","Mostel, Zero","Ritt, Martin",70,No,woody.gif
 1992,108,Husbands & Wives,Comedy,"Allen, Woody","Farrow, Mia","Allen, Woody",80,No,woody.gif
 1975,82,Love & Death,Comedy,"Allen, Woody","Keaton, Diane",,84,No,woody.gif
-1991,,New York Stories,Comedy,Missing,,"Scorsese, Martin",6,No,NicholasCage.gif
+1991,,New York Stories,Comedy,,,"Scorsese, Martin",6,No,NicholasCage.gif
 1972,86,"Play It Again, Sam",Comedy,"Allen, Woody","Keaton, Diane","Ross, Herbert",81,No,woody.gif
 1991,87,Scenes from a Mall,Comedy,"Allen, Woody","Midler, Bette",,8,No,woody.gif
 1973,88,Sleeper,Comedy,"Allen, Woody","Keaton, Diane",,59,No,woody.gif
@@ -426,7 +426,7 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1953,120,Julius Caesar,Drama,"Brando, Marlon","Garson, Greer","Mankiewicz, Joseph L.",50,No,brando.gif
 1950,85,"Men, The",Drama,"Brando, Marlon","Wright, Teresa","Zinnemann, Fred",27,No,brando.gif
 1965,123,Morituri,Drama,"Brando, Marlon","Brynner, Yul","Wicki, Bernhard",9,No,brando.gif
-1962,182,Mutiny on the Bounty,Action,"Brando, Marlon",,Missing,35,No,brando.gif
+1962,182,Mutiny on the Bounty,Action,"Brando, Marlon",,,35,No,brando.gif
 1961,141,One Eyed Jacks,Westerns,"Malden, Karl",,"Brando, Marlon",26,No,brando.gif
 1967,109,Reflections in a Golden Eye,Drama,"Brando, Marlon","Taylor, Elizabeth","Huston, John",81,No,brando.gif
 1978,145,"Superman, The Movie",Action,"Brando, Marlon","Kidder, Margot","Donner, Richard",87,No,brando.gif
@@ -452,13 +452,13 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1985,55,Gonzo Presents Muppet Weird Stuff,Comedy,"Cleese, John","Andrews, Julie",,88,No,NicholasCage.gif
 1974,89,Monty Python & the Holy Grail,Comedy,"Chapman, Graham","Booth, Connie","Gilliam, Terry",83,No,NicholasCage.gif
 1982,81,Monty Python Live at the Hollywood Bowl,Comedy,"Chapman, Graham",,Monty Python,81,No,NicholasCage.gif
-1986,60,Monty Python's Flying Circus,Comedy,"Chapman, Graham",,Missing,4,No,NicholasCage.gif
+1986,60,Monty Python's Flying Circus,Comedy,"Chapman, Graham",,,4,No,NicholasCage.gif
 1979,94,Monty Python's Life of Brian,Comedy,"Chapman, Graham",,"Jones, Terry",11,No,NicholasCage.gif
 1983,107,Monty Python's the Meaning of Life,Comedy,"Cleese, John",,"Jones, Terry",33,No,NicholasCage.gif
-1982,101,"Secret Policeman's Other Ball, The",Comedy,"Cleese, John",,Missing,86,No,NicholasCage.gif
+1982,101,"Secret Policeman's Other Ball, The",Comedy,"Cleese, John",,,86,No,NicholasCage.gif
 1984,77,"Secret Policeman's Private Parts, The",Comedy,"Cleese, John",,"Graef, Roger",36,No,NicholasCage.gif
 1971,84,"Statue, The",Drama,"Niven, David","Lisi, Virna","Amateau, Rod",80,No,NicholasCage.gif
-1981,127,"Taming of the Shrew, The",Drama,"Cleese, John",,Missing,2,No,NicholasCage.gif
+1981,127,"Taming of the Shrew, The",Drama,"Cleese, John",,,2,No,NicholasCage.gif
 1981,117,Time Bandits,Comedy,"Cleese, John","Duvall, Shelley","Gilliam, Terry",5,No,NicholasCage.gif
 1983,97,Yellowbeard,Comedy,"Chapman, Graham","Kahn, Madeline","Damski, Mel",34,No,NicholasCage.gif
 1971,98,"Anderson Tapes, The",Mystery,"Connery, Sean","Cannon, Dyan","Lumet, Sidney",1,No,NicholasCage.gif
@@ -468,7 +468,7 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1962,,Dr. No,Action,"Connery, Sean","Andress, Ursula","Young, Terence",7,No,NicholasCage.gif
 1989,113,Family Business,Action,"Connery, Sean","DeSoto, Rosana","Lumet, Sidney",5,No,NicholasCage.gif
 1966,104,A Fine Madness,Comedy,"Connery, Sean","Woodward, Joanne","Kershner, Irvin",6,No,NicholasCage.gif
-1964,,From Russia with Love,Action,"Connery, Sean",,Missing,6,No,NicholasCage.gif
+1964,,From Russia with Love,Action,"Connery, Sean",,,6,No,NicholasCage.gif
 1964,,Goldfinger,Action,"Connery, Sean","Blackman, Honor","Hamilton, Guy",8,No,NicholasCage.gif
 1979,110,"Great Train Robbery, The",Mystery,"Connery, Sean","Down, Lesley-Anne","Crichton, Michael",7,No,NicholasCage.gif
 1986,110,Highlander,Science Fiction,"Lambert, Christopher","Hart, Roxanne","Mulcahy, Russell",8,No,NicholasCage.gif
@@ -481,7 +481,7 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1970,123,"Molly Maguires, The",Action,"Connery, Sean","Eggar, Samantha","Ritt, Martin",3,No,NicholasCage.gif
 1986,128,"Name of the Rose, The",Drama,"Connery, Sean",,"Annaud, Jean-Jacques",8,No,NicholasCage.gif
 1983,134,Never Say Never Again,Action,"Connery, Sean","Basinger, Kim","Kershner, Irvin",8,No,NicholasCage.gif
-1993,108,"Offence, The",Mystery,"Connery, Sean",,Missing,6,No,NicholasCage.gif
+1993,108,"Offence, The",Mystery,"Connery, Sean",,,6,No,NicholasCage.gif
 1981,111,Outland,Science Fiction,"Connery, Sean","Sternhagen, Frances","Hyams, Peter",7,No,NicholasCage.gif
 1971,121,"Red Tent, The",Action,"Finch, Peter",,"Kalatozov, Mikhail",7,No,NicholasCage.gif
 1976,106,Robin & Marian,Action,"Connery, Sean","Hepburn, Audrey","Lester, Richard",6,No,NicholasCage.gif
@@ -513,7 +513,7 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1976,112,Maitresse,Drama,"Ogier, Bulle",,"Schroeder, Barbet",39,No,NicholasCage.gif
 1980,123,Mon Oncle D'Amerique,Comedy,Roger-Pierre,,"Resnais, Alain",71,No,NicholasCage.gif
 1983,,"Moon in the Gutter, The",Action,"Depardieu, Gerard","Kinski, Nastassia","Beineix, Jean-Jacques",29,No,NicholasCage.gif
-1977,255,Nineteen Hundred,Drama,"De Niro, Robert",,Missing,82,No,NicholasCage.gif
+1977,255,Nineteen Hundred,Drama,"De Niro, Robert",,,82,No,NicholasCage.gif
 1985,97,One Woman or Two,Comedy,"Depardieu, Gerard","Weaver, Sigourney","Vigne, Daniel",64,No,weaver.gif
 1982,111,"Return of Martin Guerre, The",Drama,"Depardieu, Gerard",,"Vigne, Daniel",51,No,NicholasCage.gif
 1974,117,Stavisky,Drama,"Belmondo, Jean-Paul","Duperey, Anny","Resnais, Alain",1,No,NicholasCage.gif
@@ -529,11 +529,11 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1990,93,"Court-Martial of Jackie Robinson, The",Drama,"Braugher, Andre","Dee, Ruby","Peerce, Larry",33,No,NicholasCage.gif
 1972,128,"Cowboys, The",Westerns,"Wayne, John",,"Rydell, Mark",58,No,NicholasCage.gif
 1965,133,"Hush, Hush, Sweet Charlotte",Mystery,"Cotten, Joseph","Davis, Bette","Aldrich, Robert",68,No,NicholasCage.gif
-1989,90,"Branford Marsalis, Steep",Music,"Marsalis, Branford",,Missing,52,No,NicholasCage.gif
+1989,90,"Branford Marsalis, Steep",Music,"Marsalis, Branford",,,52,No,NicholasCage.gif
 1981,88,Going Ape,Comedy,"Danza, Tony","Walter, Jessica","Kronsberg, Jeremy Joe",65,No,NicholasCage.gif
 1986,90,Head Office,Comedy,"Reinhold, Judge","Seymour, Jane","Finkleman, Ken",88,No,NicholasCage.gif
 1985,106,"Jewel of the Nile, The",Action,"Douglas, Michael","Turner, Kathleen","Teague, Lewis",68,No,NicholasCage.gif
-1987,60,Joe Piscopo New Jersey Special,Comedy,"Piscopo, Joe",,Missing,14,No,NicholasCage.gif
+1987,60,Joe Piscopo New Jersey Special,Comedy,"Piscopo, Joe",,,14,No,NicholasCage.gif
 1984,90,Johnny Dangerously,Comedy,"Piscopo, Joe","Henner, Marilu","Heckerling, Amy",3,No,NicholasCage.gif
 1990,110,Modern Love,Comedy,"Benson, Robby","McClanahan, Rue",,18,No,NicholasCage.gif
 1989,88,"Money, The",Drama,"Luckinbill, Laurence","Richards, Elizabeth",,29,No,NicholasCage.gif
@@ -541,25 +541,25 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1986,93,Ruthless People,Comedy,"DeVito, Danny","Slater, Helen","Abrahams, Jim",84,No,NicholasCage.gif
 1987,112,Tin Men,Comedy,"Dreyfuss, Richard","Hershey, Barbara","Levinson, Barry",50,No,NicholasCage.gif
 1988,107,Twins,Comedy,"Schwarzenegger, A.","Preston, Kelly","Reitman, Ivan",23,No,NicholasCage.gif
-1989,90,"Van, The",Comedy,"DeVito, Danny",,Missing,5,No,NicholasCage.gif
+1989,90,"Van, The",Comedy,"DeVito, Danny",,,5,No,NicholasCage.gif
 1986,91,Wise Guys,Comedy,"Piscopo, Joe",,"De Palma, Brian",16,No,NicholasCage.gif
 1970,100,Adam at 6 A.M.,Drama,"Douglas, Michael","Purcell, Lee","Scheerer, Robert",3,No,NicholasCage.gif
 1979,122,"China Syndrome, The",Drama,"Douglas, Michael","Fonda, Jane","Bridges, James",43,No,NicholasCage.gif
 1985,118,"A Chorus Line, The Movie",Music,"Douglas, Michael","Landers, Audrey","Attenborough, Richard",71,No,NicholasCage.gif
 1978,114,Coma,Science Fiction,"Douglas, Michael","Bujold, Genevieve","Crichton, Michael",64,No,NicholasCage.gif
 1980,91,It's My Turn,Comedy,"Douglas, Michael","Clayburgh, Jill","Weill, Claudia",0,No,NicholasCage.gif
-1972,15,My Country Right or Wrong,War,"Douglas, Michael",,Missing,21,No,NicholasCage.gif
+1972,15,My Country Right or Wrong,War,"Douglas, Michael",,,21,No,NicholasCage.gif
 1972,92,Napoleon & Samantha,Comedy,"Douglas, Michael","Foster, Jodie","McEveety, Bernard",33,No,NicholasCage.gif
 1992,133,Shining Through,Mystery,"Douglas, Michael","Griffith, Melanie","Seltzer, David",11,No,NicholasCage.gif
 1983,109,"Star Chamber, The",Drama,"Douglas, Michael","Gless, Sharon","Hyam, Peter",3,No,NicholasCage.gif
 1979,112,Alcatraz...Fuga Imposible,Drama,"Eastwood, Clint",,"Siegel, Don",49,No,NicholasCage.gif
 1971,109,"Beguiled, The",Drama,"Eastwood, Clint",,"Siegel, Don",60,No,NicholasCage.gif
 1980,116,Bronco Billy,Westerns,"Eastwood, Clint","Locke, Sondra","Eastwood, Clint",57,No,NicholasCage.gif
-1991,,"Clint Eastwood Collection, The",Westerns,"Eastwood, Clint",,Missing,11,No,NicholasCage.gif
-1991,,"Complete Dirty Harry, Magnum Force, The",Action,"Eastwood, Clint",,Missing,53,No,NicholasCage.gif
+1991,,"Clint Eastwood Collection, The",Westerns,"Eastwood, Clint",,,11,No,NicholasCage.gif
+1991,,"Complete Dirty Harry, Magnum Force, The",Action,"Eastwood, Clint",,,53,No,NicholasCage.gif
 1968,103,Coogan's Bluff,Action,"Eastwood, Clint","Clark, Susan","Siegel, Don",57,No,NicholasCage.gif
-1992,92,"Dead Pool, The",Action,"Eastwood, Clint",,Missing,26,No,NicholasCage.gif
-1989,,"Death Valley Days, Deadly Decision",Westerns,"Caan, James",,Missing,9,No,NicholasCage.gif
+1992,92,"Dead Pool, The",Action,"Eastwood, Clint",,,26,No,NicholasCage.gif
+1989,,"Death Valley Days, Deadly Decision",Westerns,"Caan, James",,,9,No,NicholasCage.gif
 1971,102,Dirty Harry,Drama,"Eastwood, Clint","Santoni, Reni","Siegel, Don",72,No,NicholasCage.gif
 1975,130,"Eiger Sanction, The",Action,"Eastwood, Clint","McGee, Vonetta","Eastwood, Clint",69,No,NicholasCage.gif
 1979,112,Escape from Alcatraz,Drama,"Eastwood, Clint",,"Siegel, Don",22,No,NicholasCage.gif
@@ -567,7 +567,7 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1964,102,A Fistful of Dollars,Westerns,"Eastwood, Clint","Volonte, Gian Maria","Leone, Sergio",61,No,NicholasCage.gif
 1991,130,For a Few Dollars More,Westerns,"Eastwood, Clint",,"Leone, Sergio",34,No,NicholasCage.gif
 1977,109,"Gauntlet, The",Action,"Eastwood, Clint","Locke, Sondra","Eastwood, Clint",18,No,NicholasCage.gif
-1992,163,"Good, the Bad & the Ugly, The",Westerns,"Eastwood, Clint",,Missing,68,No,NicholasCage.gif
+1992,163,"Good, the Bad & the Ugly, The",Westerns,"Eastwood, Clint",,,68,No,NicholasCage.gif
 1986,130,El Guerrero Solitario,Drama,"Eastwood, Clint","Mason, Marsha","Eastwood, Clint",77,No,NicholasCage.gif
 1991,114,Hang 'em High,Westerns,"Eastwood, Clint","Hingle, Pat",,58,No,NicholasCage.gif
 1986,130,Heartbreak Ridge,War,"Eastwood, Clint","Mason, Marsha","Eastwood, Clint",46,No,NicholasCage.gif
@@ -575,16 +575,16 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1982,,Honkeytonk Man,Action,"Eastwood, Clint",,"Eastwood, Clint",73,No,NicholasCage.gif
 1982,123,Honkytonk Man,Drama,"Eastwood, Clint","Bloom, Verna","Eastwood, Clint",69,No,NicholasCage.gif
 1971,88,Joe Kidd,Westerns,"Eastwood, Clint",,"Sturges, John",79,No,NicholasCage.gif
-1992,146,Kelly's Hereos,Action,"Eastwood, Clint",,Missing,33,No,NicholasCage.gif
+1992,146,Kelly's Hereos,Action,"Eastwood, Clint",,,33,No,NicholasCage.gif
 1970,146,Kelly's Heroes,Comedy,"Eastwood, Clint",,"Hutton, Brian G.",84,No,NicholasCage.gif
 1973,122,Magnum Force,Action,"Eastwood, Clint",,"Post, Ted",28,No,NicholasCage.gif
-1959,60,"Maverick, Duel at Sundown",Westerns,"Garner, James",,Missing,26,No,NicholasCage.gif
+1959,60,"Maverick, Duel at Sundown",Westerns,"Garner, James",,,26,No,NicholasCage.gif
 1969,161,Paint Your Wagon,Music,"Marvin, Lee",,"Logan, Joshua",46,No,NicholasCage.gif
 1985,116,Pale Rider,Westerns,"Eastwood, Clint","Snodgress, Carrie","Eastwood, Clint",45,No,NicholasCage.gif
 1971,102,Play Misty for Me,Mystery,"Eastwood, Clint","Walter, Jessica","Eastwood, Clint",47,No,NicholasCage.gif
-1959,60,"Rawhide, Premiere Episode",Westerns,"Eastwood, Clint",,Missing,54,No,NicholasCage.gif
+1959,60,"Rawhide, Premiere Episode",Westerns,"Eastwood, Clint",,,54,No,NicholasCage.gif
 1991,114,Thunderbolt & Lightfoot,Action,"Eastwood, Clint",,"Cimino, Michael",16,No,NicholasCage.gif
-1992,118,Tightrope,Mystery,"Eastwood, Clint",,Missing,55,No,NicholasCage.gif
+1992,118,Tightrope,Mystery,"Eastwood, Clint",,,55,No,NicholasCage.gif
 1970,105,Two Mules for Sister Sara,Westerns,"Eastwood, Clint","MacLaine, Shirley","Siegel, Don",36,No,NicholasCage.gif
 1968,158,Where Eagles Dare,War,"Burton, Richard",,"Hulton, Brian G.",57,No,NicholasCage.gif
 1981,96,"Cannonball Run, The",Comedy,"Reynolds, Burt","Fawcett, Farrah","Needham, Hal",80,No,NicholasCage.gif
@@ -599,10 +599,10 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1979,128,Moonraker,Action,"Moore, Roger","Chiles, Lois","Gilbert, Lewis",32,No,NicholasCage.gif
 1983,140,Octopussy,Action,"Moore, Roger","Adams, Maud","Glen, John",68,No,NicholasCage.gif
 1991,135,On Her Majesty's Secret Service,Action,"Moore, Roger","Rigg, Diana",,48,No,NicholasCage.gif
-1992,52,"Persuaders, The Overture, The",Mystery,"Curtis, Tony",,Missing,40,No,NicholasCage.gif
+1992,52,"Persuaders, The Overture, The",Mystery,"Curtis, Tony",,,40,No,NicholasCage.gif
 1989,95,"Rape of the Sabines, The",Action,"Moore, Roger","Demongeot, Mylene",,83,No,NicholasCage.gif
-1992,101,Romulus & the Sabines,Action,"Moore, Roger",,Missing,76,No,NicholasCage.gif
-1989,,"Saint, The",Mystery,"Moore, Roger",,Missing,29,No,NicholasCage.gif
+1992,101,Romulus & the Sabines,Action,"Moore, Roger",,,76,No,NicholasCage.gif
+1989,,"Saint, The",Mystery,"Moore, Roger",,,29,No,NicholasCage.gif
 1976,128,Shout at the Devil,Action,"Marvin, Lee","Parkins, Barbara","Hunt, Peter R.",0,No,NicholasCage.gif
 1977,136,"Spy Who Loved Me, The",Action,"Moore, Roger","Bach, Barbara","Gilbert, Lewis",27,No,NicholasCage.gif
 1976,92,Street People,Action,"Moore, Roger",,"Lucidi, Maurizio",25,No,NicholasCage.gif
@@ -626,12 +626,12 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1964,132,Circus World,Drama,"Wayne, John","Hayworth, Rita","Hathaway, Henry",29,No,NicholasCage.gif
 1945,82,Dakota,Westerns,"Wayne, John",,"Kane, Joseph",27,No,NicholasCage.gif
 1940,95,Dark Command,Westerns,"Wayne, John","Trevor, Claire","Walsh, Raoul",52,No,NicholasCage.gif
-1992,56,"Dawn Rider, The",Westerns,"Wayne, John",,Missing,44,No,NicholasCage.gif
-1991,56,"Desert Rider, The",Westerns,"Wayne, John",,Missing,26,No,NicholasCage.gif
-1991,57,"Desert Trail, The",Westerns,"Wayne, John",,Missing,12,No,NicholasCage.gif
+1992,56,"Dawn Rider, The",Westerns,"Wayne, John",,,44,No,NicholasCage.gif
+1991,56,"Desert Rider, The",Westerns,"Wayne, John",,,26,No,NicholasCage.gif
+1991,57,"Desert Trail, The",Westerns,"Wayne, John",,,12,No,NicholasCage.gif
 1935,52,Desert Trail,Westerns,"Wayne, John","Kornman, Mary",,52,No,NicholasCage.gif
 1963,109,Donovan's Reef,Comedy,"Wayne, John","Allen, Elizabeth","Ford, John",62,No,NicholasCage.gif
-1993,,"Duke, The Films of John Wayne",Westerns,"Wayne, John",,Missing,70,No,NicholasCage.gif
+1993,,"Duke, The Films of John Wayne",Westerns,"Wayne, John",,,70,No,NicholasCage.gif
 1949,100,"Fighting Kentuckian, The",Action,"Wayne, John","Ralston, Vera","Waggner, George",74,No,NicholasCage.gif
 1944,100,"Fighting Seabees, The",War,"Wayne, John",,"Ludwig, Edward",35,No,NicholasCage.gif
 1992,91,Flame of Barbary Coast,Action,"Wayne, John","Dvorak, Ann",,39,No,NicholasCage.gif
@@ -639,63 +639,63 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1951,102,Flying Leathernecks,Action,"Wayne, John",,"Ray, Nicholas",23,No,NicholasCage.gif
 1942,101,Flying Tigers,Action,"Wayne, John",,"Miller, David",61,No,NicholasCage.gif
 1948,127,Fort Apache,Westerns,"Fonda, Henry","Temple, Shirley","Ford, John",4,No,NicholasCage.gif
-1939,55,Frontier Horizon,Westerns,"Wayne, John",,Missing,73,No,NicholasCage.gif
+1939,55,Frontier Horizon,Westerns,"Wayne, John",,,73,No,NicholasCage.gif
 1968,133,"Green Berets, The",War,"Wayne, John",,"Kellogg, Ray",36,No,NicholasCage.gif
-1934,54,Hell Town,Westerns,"Wayne, John",,Missing,23,No,NicholasCage.gif
+1934,54,Hell Town,Westerns,"Wayne, John",,,23,No,NicholasCage.gif
 1968,121,Hellfighters,Action,"Wayne, John","Ross, Katharine","McLaglen, Andrew V.",22,No,NicholasCage.gif
-1991,80,Hollywood's Greatest War Movies,War,"Scott, George C.",,Missing,41,No,NicholasCage.gif
+1991,80,Hollywood's Greatest War Movies,War,"Scott, George C.",,,41,No,NicholasCage.gif
 1959,102,"Horse Soldiers, The",Westerns,"Wayne, John","Gibson, Althea","Ford, John",76,No,NicholasCage.gif
-1992,165,How the West Was Won,Westerns,"Fonda, Henry",,Missing,45,No,NicholasCage.gif
-1932,210,"Hurricane Express, The",Action,"Wayne, John",,Missing,68,No,NicholasCage.gif
-1932,,Hurricane Express,Westerns,"Wayne, John",,Missing,7,No,NicholasCage.gif
-1965,165,In Harm's Way,War,"Wayne, John",,Missing,66,No,NicholasCage.gif
+1992,165,How the West Was Won,Westerns,"Fonda, Henry",,,45,No,NicholasCage.gif
+1932,210,"Hurricane Express, The",Action,"Wayne, John",,,68,No,NicholasCage.gif
+1932,,Hurricane Express,Westerns,"Wayne, John",,,7,No,NicholasCage.gif
+1965,165,In Harm's Way,War,"Wayne, John",,,66,No,NicholasCage.gif
 1940,90,In Old California,Westerns,"Wayne, John",,"McGann, William",27,No,NicholasCage.gif
 1992,,Jet Pilot,Action,"Wayne, John","Leigh, Janet","Von Sternberg, Josef",43,No,NicholasCage.gif
-1991,,"John Wayne Collection, Red River, The",War,"Wayne, John",,Missing,49,No,NicholasCage.gif
-1992,,John Wayne Collector's Limited Edition,War,"Wayne, John",,Missing,3,No,NicholasCage.gif
-1991,,John Wayne Four Pack,Westerns,"Wayne, John",,Missing,58,No,NicholasCage.gif
+1991,,"John Wayne Collection, Red River, The",War,"Wayne, John",,,49,No,NicholasCage.gif
+1992,,John Wayne Collector's Limited Edition,War,"Wayne, John",,,3,No,NicholasCage.gif
+1991,,John Wayne Four Pack,Westerns,"Wayne, John",,,58,No,NicholasCage.gif
 1939,109,"John Wayne Matinee Double Feature, No. 1",Westerns,"Wayne, John","Rutherford, Ann",,30,No,NicholasCage.gif
-1939,112,"John Wayne Matinee Double Feature, No. 2",Westerns,"Wayne, John",,Missing,3,No,NicholasCage.gif
-1939,110,"John Wayne Matinee Double Feature, No. 3",Westerns,"Wayne, John",,Missing,24,No,NicholasCage.gif
-1938,110,"John Wayne Matinee Double Feature, No. 4",Westerns,"Wayne, John",,Missing,28,No,NicholasCage.gif
-1990,,John Wayne Six Pack,Westerns,"Wayne, John",,Missing,87,No,NicholasCage.gif
-1991,,"John Wayne Western Greats, Rio Bravo",Westerns,"Wayne, John",,Missing,22,No,NicholasCage.gif
-1991,56,King of the Pecos,Westerns,"Wayne, John",,Missing,78,No,NicholasCage.gif
+1939,112,"John Wayne Matinee Double Feature, No. 2",Westerns,"Wayne, John",,,3,No,NicholasCage.gif
+1939,110,"John Wayne Matinee Double Feature, No. 3",Westerns,"Wayne, John",,,24,No,NicholasCage.gif
+1938,110,"John Wayne Matinee Double Feature, No. 4",Westerns,"Wayne, John",,,28,No,NicholasCage.gif
+1990,,John Wayne Six Pack,Westerns,"Wayne, John",,,87,No,NicholasCage.gif
+1991,,"John Wayne Western Greats, Rio Bravo",Westerns,"Wayne, John",,,22,No,NicholasCage.gif
+1991,56,King of the Pecos,Westerns,"Wayne, John",,,78,No,NicholasCage.gif
 1942,88,Lady for a Night,Drama,"Wayne, John","Blondell, Joan","Leigh, Jason",12,No,NicholasCage.gif
 1941,85,Lady from Louisiana,Drama,"Wayne, John","Munson, Ona","Vorhaus, Bernard",38,No,NicholasCage.gif
-1991,52,"Lawless Frontier, The",Westerns,"Wayne, John",,Missing,35,No,NicholasCage.gif
-1992,59,Lawless Frontier,Westerns,"Wayne, John",,Missing,8,No,NicholasCage.gif
-1991,56,"Lawless Nineties, The",Westerns,"Wayne, John",,Missing,3,No,NicholasCage.gif
+1991,52,"Lawless Frontier, The",Westerns,"Wayne, John",,,35,No,NicholasCage.gif
+1992,59,Lawless Frontier,Westerns,"Wayne, John",,,8,No,NicholasCage.gif
+1991,56,"Lawless Nineties, The",Westerns,"Wayne, John",,,3,No,NicholasCage.gif
 1957,109,Legend of the Lost,Action,"Wayne, John","Loren, Sophia","Hathaway, Henry",84,No,NicholasCage.gif
 1940,105,"Long Voyage Home, The",Drama,"Wayne, John","Natwick, Mildred","Ford, John",88,No,NicholasCage.gif
-1934,54,Lucky Texan,Westerns,"Wayne, John",,Missing,48,No,NicholasCage.gif
+1934,54,Lucky Texan,Westerns,"Wayne, John",,,48,No,NicholasCage.gif
 1974,111,Mc Q,Action,"Wayne, John","Muldaur, Diana","Sturges, John",73,No,NicholasCage.gif
-1992,112,McQ,Action,"Wayne, John",,Missing,5,No,NicholasCage.gif
+1992,112,McQ,Action,"Wayne, John",,,5,No,NicholasCage.gif
 1962,123,"Man Who Shot Liberty Valance, The",Westerns,"Stewart, James","Miles, Vera","Ford, John",85,No,NicholasCage.gif
 1984,83,"Manhunt, The",Action,"Borgnine, Ernest",,"Ludman, Larry",34,No,NicholasCage.gif
-1993,,Neath Arizona Skies,Westerns,"Wayne, John",,Missing,73,No,NicholasCage.gif
-1991,54,Neath the Arizona Skies,Westerns,"Wayne, John",,Missing,28,No,NicholasCage.gif
+1993,,Neath Arizona Skies,Westerns,"Wayne, John",,,73,No,NicholasCage.gif
+1991,54,Neath the Arizona Skies,Westerns,"Wayne, John",,,28,No,NicholasCage.gif
 1960,122,North to Alaska,Westerns,"Wayne, John",,"Hathaway, Henry",31,No,NicholasCage.gif
 1987,85,Operation Nam,War,"Wayne, John Ethan",,"Ludman, Larry",37,No,NicholasCage.gif
 1951,111,Operation Pacific,War,"Wayne, John","Neal, Patricia",,5,No,NicholasCage.gif
 1938,55,Overland Stage Raiders,Westerns,"Wayne, John",,"Sherman, George",83,No,NicholasCage.gif
 1938,55,Pals of the Saddle,Westerns,"Wayne, John",,"Sherman, George",33,No,NicholasCage.gif
 1992,153,"Quiet Man, The",Drama,"Wayne, John","O'Hara, Maureen",,74,No,NicholasCage.gif
-1991,53,Randy Rides Alone,Westerns,"Wayne, John",,Missing,75,No,NicholasCage.gif
+1991,53,Randy Rides Alone,Westerns,"Wayne, John",,,75,No,NicholasCage.gif
 1931,,"Range Feud, The",Westerns,"Wayne, John","Fleming, Susan","Lederman, Ross",51,No,NicholasCage.gif
-1993,58,Range Feud,Westerns,"Wayne, John",,Missing,77,No,NicholasCage.gif
+1993,58,Range Feud,Westerns,"Wayne, John",,,77,No,NicholasCage.gif
 1942,123,Reap the Wild Wind,Drama,"Wayne, John","Beecher, Janet","DeMille, Cecil B.",59,No,NicholasCage.gif
-1992,134,Red River,Westerns,"Wayne, John",,Missing,16,No,NicholasCage.gif
-1991,52,Riders of Destiny,Westerns,"Wayne, John",,Missing,30,No,NicholasCage.gif
+1992,134,Red River,Westerns,"Wayne, John",,,16,No,NicholasCage.gif
+1991,52,Riders of Destiny,Westerns,"Wayne, John",,,30,No,NicholasCage.gif
 1950,105,Rio Grande,Westerns,"Wayne, John","O'Hara, Maureen","Ford, John",64,No,NicholasCage.gif
 1975,107,Rooster Cogburn,Westerns,"Wayne, John","Hepburn, Katharine","Miller, Stuart",76,No,NicholasCage.gif
-1990,,Sagebrush Trail,Westerns,"Wayne, John",,Missing,23,No,NicholasCage.gif
+1990,,Sagebrush Trail,Westerns,"Wayne, John",,,23,No,NicholasCage.gif
 1949,109,Sands of Iwo Jima,War,"Wayne, John",,"Dwan, Allan",47,No,NicholasCage.gif
 1983,86,Scream,Horror,"Martin, Pepper",,"Quisenberry, Byron",24,No,NicholasCage.gif
 1955,117,"Sea Chase, The",War,"Wayne, John","Turner, Lana","Farrow, John",4,No,NicholasCage.gif
 1956,119,"Searchers, The",Westerns,"Wayne, John","Wood, Natalie","Ford, John",9,No,NicholasCage.gif
 1940,83,Seven Sinners,Drama,"Dietrich, Marlene","Auer, Mischa","Garnett, Tay",24,No,NicholasCage.gif
-1932,226,"Shadow of the Eagle, The",Action,"Wayne, John",,Missing,19,No,NicholasCage.gif
+1932,226,"Shadow of the Eagle, The",Action,"Wayne, John",,,19,No,NicholasCage.gif
 1949,93,She Wore a Yellow Ribbon,Westerns,"Wayne, John","Dru, Joanne","Ford, John",84,No,NicholasCage.gif
 1982,117,Blade Runner,Action,"Ford, Harrison","Hannah, Daryl","Scott, Ridley",1,No,NicholasCage.gif
 1952,98,Affair in Trinidad,Drama,"Ford, Glenn","Hayworth, Rita","Sherman, Vincent",49,No,NicholasCage.gif
@@ -704,19 +704,19 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1931,95,Arrowsmith,Drama,"Colman, Ronald","Hayes, Helen","Ford, John",84,No,NicholasCage.gif
 1939,85,Back Door to Heaven,Drama,"Ford, Wallace","MacMahon, Aline","Howard, William K.",83,No,NicholasCage.gif
 1948,59,Bandits of Dark Canyon,Westerns,"Lane, Allan",,"Ford, Philip",72,No,NicholasCage.gif
-1942,18,"Battle of Midway, The",War,,Missing,"Ford, John",24,No,NicholasCage.gif
+1942,18,"Battle of Midway, The",War,,,"Ford, John",24,No,NicholasCage.gif
 1966,95,A Big Hand for the Little Lady,Comedy,"Fonda, Henry","Woodward, Joanne","Cook, Fielder",12,No,NicholasCage.gif
 1955,,"Blackboard Jungle, The",Drama,"Ford, Glenn","Francis, Anne","Brooks, Richard",66,No,NicholasCage.gif
 1945,94,Blood on the Sun,Drama,"Cagney, James",,"Lloyd, Frank",76,No,NicholasCage.gif
 1987,93,Bodycount,Action,"White, Bernie","Hassett, Marilyn",,51,No,NicholasCage.gif
 1948,60,"Bold Frontiersman, The",Westerns,"Lane, Allan",,"Ford, Philip",18,No,NicholasCage.gif
 1990,110,Border Shootout,Action,"Ford, Glenn","Tilton, Charlene",,7,No,NicholasCage.gif
-1948,110,Border Street,Drama,,Missing,"Ford, Alexander",74,No,NicholasCage.gif
-1990,,Casablanca Express,Action,"Connery, Jason",,Missing,52,No,NicholasCage.gif
+1948,110,Border Street,Drama,,,"Ford, Alexander",74,No,NicholasCage.gif
+1990,,Casablanca Express,Action,"Connery, Jason",,,52,No,NicholasCage.gif
 1981,115,Los Cazadores del Arca Perdida,Action,"Ford, Harrison","Allen, Karen","Spielberg, Steven",60,No,NicholasCage.gif
 1991,117,"Courtship of Eddie's Father, The",Comedy,"Howard, Ron","Jones, Shirley",,43,No,NicholasCage.gif
 1946,93,Crack-Up,Mystery,"Marshall, Herbert","O'Brien, Pat","Reis, Irving",25,No,NicholasCage.gif
-1988,76,Daffy Duck's Quackbusters,Action,,Missing,"Ford, Greg",86,No,NicholasCage.gif
+1988,76,Daffy Duck's Quackbusters,Action,,,"Ford, Greg",86,No,NicholasCage.gif
 1943,99,Destroyer,Action,"Robinson, Edward G.","Chapman, Marguerite","Seiter, William A.",87,No,NicholasCage.gif
 1980,124,"Empire Strikes Back, The",Science Fiction,"Hamill, Mark","Fisher, Carrie","Kershner, Irvin",33,No,NicholasCage.gif
 1993,75,Employee's Entrance,Drama,"William, Warren","Young, Loretta",,0,No,NicholasCage.gif
@@ -728,13 +728,13 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1979,119,"Frisco Kid, The",Comedy,"Wilder, Gene",,"Aldrich, Robert",10,No,NicholasCage.gif
 1970,126,Getting Straight,Comedy,"Gould, Elliott","Bergen, Candice","Rush, Richard",83,No,NicholasCage.gif
 1992,110,Gilda,Drama,"Hayworth, Rita",,"Vidor, Charles",57,No,NicholasCage.gif
-1993,88,Great White Death,Action,"Ford, Glenn",,Missing,26,No,NicholasCage.gif
+1993,88,Great White Death,Action,"Ford, Glenn",,,26,No,NicholasCage.gif
 1991,89,Green Glove,Drama,"Ford, Glenn",,"Mate, Rudolph",54,No,NicholasCage.gif
 1991,110,Hanover Street,Drama,"Ford, Harrison","Down, Lesley-Anne","Hyams, Peter",81,No,NicholasCage.gif
 1980,,Happy Birthday to Me,Horror,"Ford, Glenn","Anderson, Melissa Sue","Thompson, J. Lee",88,No,NicholasCage.gif
 1950,104,Harvey,Comedy,"Stewart, James","Hull, Josephine","Koster, Henry",42,No,NicholasCage.gif
 1977,113,Heroes,Drama,"Winkler, Henry","Field, Sally","Kagan, Jeremy Paul",17,No,NicholasCage.gif
-1989,60,History of World War II,War,,Missing,"Capra, Frank",56,No,NicholasCage.gif
+1989,60,History of World War II,War,,,"Capra, Frank",56,No,NicholasCage.gif
 1954,90,Human Desire,Drama,"Ford, Glenn",,"Lang, Fritz",27,No,NicholasCage.gif
 1993,104,It Started with a Kiss,Drama,"Ford, Glenn","Reynolds, Debbie",,80,No,NicholasCage.gif
 1956,101,Jubal,Drama,"Ford, Glenn","Farr, Felicia","Daves, Delmer",32,No,NicholasCage.gif
@@ -742,7 +742,7 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1940,81,Lady in Question,Drama,"Hayworth, Rita",,"Vidor, Charles",57,No,NicholasCage.gif
 1991,125,"Last Hurrah, The",Drama,"Tracy, Spencer",,"Ford, John",46,No,NicholasCage.gif
 1949,59,Law of the Golden West,Westerns,"Hale, Monte",,"Ford, Philip",1,No,NicholasCage.gif
-1989,,Lita Ford,Music,Missing,"Ford, Lita",,48,No,NicholasCage.gif
+1989,,Lita Ford,Music,,"Ford, Lita",,48,No,NicholasCage.gif
 1992,137,"Long Gray Line, The",Drama,"Power, Tyrone","O'Hara, Maureen","Ford, John",26,No,NicholasCage.gif
 1948,98,"Loves of Carmen, The",Drama,"Ford, Glenn","Hayworth, Rita","Vidor, Charles",48,No,NicholasCage.gif
 1949,90,Lust for Gold,Drama,"Ford, Glenn","Young, Gig","Simon, S. Sylvan",57,No,NicholasCage.gif
@@ -754,8 +754,8 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1955,60,Meet Millie,Drama,"Halop, Florence","Verdugo, Elena",,82,No,NicholasCage.gif
 1976,132,Midway,War,"Heston, Charlton",,"Smight, Jack",36,No,NicholasCage.gif
 1953,116,Mogambo,Action,"Gable, Clark","Kelly, Grace","Ford, John",71,No,NicholasCage.gif
-1986,119,"Mosquito Coast, The",Drama,"Ford, Harrison",,Missing,54,No,NicholasCage.gif
-1992,,"Mummy's Hand, The",Mystery,"Foran, Dick",,Missing,54,No,NicholasCage.gif
+1986,119,"Mosquito Coast, The",Drama,"Ford, Harrison",,,54,No,NicholasCage.gif
+1992,,"Mummy's Hand, The",Mystery,"Foran, Dick",,,54,No,NicholasCage.gif
 1946,97,My Darling Clementine,Westerns,"Fonda, Henry","Downs, Cathy","Ford, John",12,No,NicholasCage.gif
 1935,60,Mysterious Mr. Wong,Mystery,"Lugosi, Bela",,"Nigh, William",71,No,NicholasCage.gif
 1992,85,Naked Obsession,Mystery,"Katt, William","Ford, Maria","Golden, Dan",26,No,NicholasCage.gif
@@ -790,9 +790,9 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1945,135,They Were Expendable,War,"Montgomery, Robert",,"Ford, John",88,No,NicholasCage.gif
 1948,103,Three Godfathers,Westerns,"Wayne, John","Darwell, Jane","Ford, John",72,No,NicholasCage.gif
 1991,87,To Die Standing,Action,"De Young, Cliff","Rose, Jamie","Morneau, Louis",53,No,NicholasCage.gif
-1993,102,Today We Kill....Tomorrow We Die,Westerns,"Ford, Montgomery",,Missing,25,No,NicholasCage.gif
+1993,102,Today We Kill....Tomorrow We Die,Westerns,"Ford, Montgomery",,,25,No,NicholasCage.gif
 1962,66,Tonight for Sure,Comedy,"Lee, Karla","Cornell, Laura","Coppola, Francis Ford",4,No,NicholasCage.gif
-1991,,Tormenta Sobre Arizona,Drama,"Ford, Wallace",,Missing,81,No,NicholasCage.gif
+1991,,Tormenta Sobre Arizona,Drama,"Ford, Wallace",,,81,No,NicholasCage.gif
 1958,96,Torpedo Run,War,"Ford, Glenn","Brewster, Diane","Pevney, Joseph",50,No,NicholasCage.gif
 1992,104,"Unnamable II, The Statement of Randolph Carter, The",Drama,"Rhys-Davies, John","Strain, Julie","Ouellette, Jean-Paul",36,No,NicholasCage.gif
 1950,60,Vanishing Westerner,Westerns,"Hale, Monte",,"Ford, Philip",6,No,NicholasCage.gif
@@ -854,21 +854,21 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1983,131,Silkwood,Drama,"Russell, Kurt","Streep, Meryl","Nichols, Mike",52,No,NicholasCage.gif
 1988,,Still of the Night,Mystery,"Scheider, Roy","Streep, Meryl","Benton, Robert",42,No,NicholasCage.gif
 1984,94,Best Defense,Comedy,"Moore, Dudley","Capshaw, Kate","Huyck, Willard",75,No,NicholasCage.gif
-1989,,"Best of Eddie Murphy, Saturday Night Live, The",Comedy,"Murphy, Eddie",,Missing,56,No,NicholasCage.gif
+1989,,"Best of Eddie Murphy, Saturday Night Live, The",Comedy,"Murphy, Eddie",,,56,No,NicholasCage.gif
 1983,60,"Best of the Big Laff Off, The",Comedy,"Murphy, Eddie","Bernhard, Sandra",,20,No,NicholasCage.gif
 1984,105,Beverly Hills Cop,Comedy,"Murphy, Eddie","Eilbacher, Lisa","Brest, Martin",41,No,NicholasCage.gif
 1983,69,"Eddie Murphy, Delirious",Comedy,"Murphy, Eddie",,"Gower, Bruce",6,No,NicholasCage.gif
 1982,98,Forty-Eight Hours,Action,"Nolte, Nick","O'Toole, Annette","Hill, Walter",47,No,NicholasCage.gif
-1983,97,Forty-Eight Hrs.,Action,"Nolte, Nick",,Missing,49,No,NicholasCage.gif
+1983,97,Forty-Eight Hrs.,Action,"Nolte, Nick",,,49,No,NicholasCage.gif
 1986,93,"Golden Child, The",Comedy,"Murphy, Eddie","Lewis, Charlotte","Ritchie, Michael",86,No,NicholasCage.gif
-1991,60,"Joe Piscopo Video, The",Comedy,"Piscopo, Joe",,Missing,44,No,NicholasCage.gif
-1990,,"Star Trek, The Man Trap & Charlie X",Science Fiction,Missing,,Missing,73,No,NicholasCage.gif
+1991,60,"Joe Piscopo Video, The",Comedy,"Piscopo, Joe",,,44,No,NicholasCage.gif
+1990,,"Star Trek, The Man Trap & Charlie X",Science Fiction,,,,73,No,NicholasCage.gif
 1992,302,"Andy Warhol Presents, Flesh",Comedy,"Dallesandro, Joe","Woodlawn, Holly","Morrissey, Paul",79,No,NicholasCage.gif
 1985,82,"Angelic Conversation, The",Comedy,"Reynolds, Paul",,"Jarman, Derek",41,No,NicholasCage.gif
 1991,90,"Henry, Portrait of a Serial Killer",Horror,"Rooker, Michael","Arnold, Tracy",,69,No,NicholasCage.gif
-1991,40,"Inauguration of the Pleasure Dome, Films of Kenneth Anger",Comedy,,Missing,"Anger, Kenneth",16,No,NicholasCage.gif
+1991,40,"Inauguration of the Pleasure Dome, Films of Kenneth Anger",Comedy,,,"Anger, Kenneth",16,No,NicholasCage.gif
 1991,87,Killer Tomatoes Strike Back,Comedy,"Astin, John",,"De Bello, John",24,No,NicholasCage.gif
-1936,57,Marijuana,Drama,,Missing,,13,No,NicholasCage.gif
+1936,57,Marijuana,Drama,,,,13,No,NicholasCage.gif
 1981,86,Polyester,Comedy,Divine,"Massey, Edith",,68,No,NicholasCage.gif
 1975,105,"Rocky Horror Picture Show, The",Music,"Gray, Charles","Sarandon, Susan","Sharman, Jim",59,No,NicholasCage.gif
 1987,83,Surf Nazis Must Die,Horror,"Brenner, Barry","Neely, Gail","George, Peter",50,No,NicholasCage.gif
@@ -907,7 +907,7 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1966,190,Hawaii,Drama,"Sydow, Max Von","Andrews, Julie","Hill, George Roy",8,No,NicholasCage.gif
 1990,98,Hiroshima,Drama,"Nelson, Judd",,"Werner, Peter",17,No,NicholasCage.gif
 1968,88,Hour of the Wolf,Drama,"Sydow, Max Von","Ullman, Liv","Bergman, Ingmar",37,No,Bergman.gif
-1946,,Crisis,Drama,Missing,,"Bergman, Ingmar",1,No,Bergman.gif
+1946,,Crisis,Drama,,,"Bergman, Ingmar",1,No,Bergman.gif
 1979,115,Hurricane,Action,"Robards, Jason","Farrow, Mia","Troell, Jan",8,No,NicholasCage.gif
 1959,100,"Magician, The",Drama,"Sydow, Max Von","Thulin, Ingrid","Bergman, Ingmar",3,No,Bergman.gif
 1977,107,March or Die,War,"Hackman, Gene","Deneuve, Catherine","Richards, Dick",59,No,NicholasCage.gif
@@ -917,7 +917,7 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1984,95,Samson & Delilah,Drama,"Hamilton, Antony","Bauer, Belinda","Philips, Lee",36,No,NicholasCage.gif
 1956,96,"Seventh Seal, The",Drama,"Sydow, Max Von","Andersson, Bibi","Bergman, Ingmar",62,No,Bergman.gif
 1974,105,Steppenwolf,Drama,"Sydow, Max Von","Sanda, Dominique","Haines, Fred",20,No,NicholasCage.gif
-1983,91,Strange Brew,Comedy,"Moranis, Rick",,Missing,24,No,NicholasCage.gif
+1983,91,Strange Brew,Comedy,"Moranis, Rick",,,24,No,NicholasCage.gif
 1984,101,Target Eagle,Action,"Peppard, George","Adams, Maud","De La Loma, Jose Antonio",14,No,NicholasCage.gif
 1991,158,Until the End of the World,Drama,"Hurt, William","Dommartin, Solveig","Wenders, Wim",57,No,NicholasCage.gif
 1981,117,Victory,Drama,"Stallone, Sylvester",,"Huston, John",39,No,NicholasCage.gif
@@ -943,11 +943,11 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1980,144,"Shining, The",Horror,"Nicholson, Jack","Duvall, Shelley","Kubrick, Stanley",32,No,JackNicholson.gif
 1963,81,"Terror, The",Horror,"Karloff, Boris",,"Corman, Roger",88,No,NicholasCage.gif
 1992,286,Tommy,Music,"Daltry, Roger",Ann-Margaret,"Russell, Ken",5,No,NicholasCage.gif
-1990,,"Two Jakes, The",Mystery,"Nicholson, Jack",,Missing,3,No,NicholasCage.gif
+1990,,"Two Jakes, The",Mystery,"Nicholson, Jack",,,3,No,NicholasCage.gif
 1987,119,"Witches of Eastwick, The",Comedy,"Nicholson, Jack",Cher,"Miller, George",8,No,NicholasCage.gif
 1978,90,Eraserhead,Horror,"Nance, John",,"Lynch, David",2,No,lynch.gif
-1992,60,Hollywood Mavericks,Comedy,"Coppola, Francis Ford",,Missing,22,No,NicholasCage.gif
-1990,50,"Industrial Symphony, The Dream of the Broken-Hearted",Music,"Lynch, David",,Missing,49,No,lynch.gif
+1992,60,Hollywood Mavericks,Comedy,"Coppola, Francis Ford",,,22,No,NicholasCage.gif
+1990,50,"Industrial Symphony, The Dream of the Broken-Hearted",Music,"Lynch, David",,,49,No,lynch.gif
 1988,75,Let It Rock,Drama,"Hopper, Dennis",,"Lynch, David",32,No,lynch.gif
 1989,113,Twin Peaks,Mystery,"MacLachlan, Kyle","Chen, Joan","Lynch, David",86,No,kyle.gif
 1992,121,Drowning by Numbers,Mystery,"Hill, Bernard","Plowright, Joan","Greenaway, Peter",28,No,NicholasCage.gif
@@ -1010,16 +1010,16 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1936,110,Camille,Drama,"Taylor, Robert","Garbo, Greta","Cukor, George",74,No,NicholasCage.gif
 1927,113,"Flesh & the Devil, The",Drama,"Garbo, Greta",,"Brown, Clarence",23,No,NicholasCage.gif
 1924,123,Gosta Berling's Saga,Drama,"Hanson, Lars",,"Stiller, Mauritz",63,No,NicholasCage.gif
-1991,346,"Greta Garbo Collection, The",Drama,"Garbo, Greta",,Missing,52,No,NicholasCage.gif
-1991,77,Inspiration,Drama,"Garbo, Greta",,Missing,19,No,NicholasCage.gif
+1991,346,"Greta Garbo Collection, The",Drama,"Garbo, Greta",,,52,No,NicholasCage.gif
+1991,77,Inspiration,Drama,"Garbo, Greta",,,19,No,NicholasCage.gif
 1925,80,Joyless St,Drama,"Garbo, Greta",,"Pabst, G. W.",53,No,NicholasCage.gif
 1932,90,Mata Hari,Drama,"Garbo, Greta",,"Fitzmaurice, George",28,No,NicholasCage.gif
-1991,,"Mysterious Lady, The",Drama,"Garbo, Greta",,Missing,32,No,NicholasCage.gif
+1991,,"Mysterious Lady, The",Drama,"Garbo, Greta",,,32,No,NicholasCage.gif
 1939,108,Ninotchka,Comedy,"Douglas, Melvyn","Garbo, Greta","Lubitsch, Ernst",40,No,NicholasCage.gif
 1934,83,Painted Veil,Drama,"Garbo, Greta",,"Boleslawski, Richard",59,No,NicholasCage.gif
-1990,100,Queen Christina,Drama,"Garbo, Greta",,Missing,49,No,NicholasCage.gif
-1991,77,Romance,Drama,"Garbo, Greta",,Missing,54,No,NicholasCage.gif
-1929,,"Single Standard, The",Drama,"Garbo, Greta",,Missing,86,No,NicholasCage.gif
+1990,100,Queen Christina,Drama,"Garbo, Greta",,,49,No,NicholasCage.gif
+1991,77,Romance,Drama,"Garbo, Greta",,,54,No,NicholasCage.gif
+1929,,"Single Standard, The",Drama,"Garbo, Greta",,,86,No,NicholasCage.gif
 1931,84,"Susan Lennox, Her Fall & Rise",Drama,"Hale, Alan","Garbo, Greta","Leonard, Robert Z.",64,No,NicholasCage.gif
 1929,119,Wild Orchids,Drama,"Garbo, Greta","Asther, Nils","Franklin, Sidney",80,No,NicholasCage.gif
 1928,90,Woman of Affairs,Drama,"Gilbert, John","Garbo, Greta","Brown, Clarence",83,No,NicholasCage.gif
@@ -1027,28 +1027,28 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1987,100,Law of Desire,Drama,"Maura, Carmen",,"Almodovar, Pedro",73,No,NicholasCage.gif
 1986,,Matador,Comedy,"Banderas, Antonio","Maura, Carmen","Almodovar, Pedro",34,No,NicholasCage.gif
 1980,86,Pepi Luci Bom,Comedy,,"Maura, Carmen","Almodovar, Pedro",44,No,NicholasCage.gif
-1990,,Tie Me Up! Tie Me Down!,Comedy,Missing,,"Almodovar, Pedro",2,No,NicholasCage.gif
+1990,,Tie Me Up! Tie Me Down!,Comedy,,,"Almodovar, Pedro",2,No,NicholasCage.gif
 1989,88,Women on the Verge of a Nervous Breakdown,Comedy,"Banderas, Antonio","Maura, Carmen","Almodovar, Pedro",65,No,NicholasCage.gif
 1991,117,Full Metal Jacket,War,"Modine, Matthew",,"Kubrick, Stanley",45,No,NicholasCage.gif
-1991,67,Killer's Kiss,Mystery,,Missing,"Kubrick, Stanley",69,No,NicholasCage.gif
+1991,67,Killer's Kiss,Mystery,,,"Kubrick, Stanley",69,No,NicholasCage.gif
 1956,83,"Killing, The",Drama,"Hayden, Sterling","Windsor, Marie","Kubrick, Stanley",51,No,NicholasCage.gif
 1962,150,Lolita,Drama,"Mason, James","Lyon, Sue","Kubrick, Stanley",80,No,NicholasCage.gif
 1957,89,Paths of Glory,Drama,"Douglas, Kirk","Menjou, Adolphe","Kubrick, Stanley",47,No,NicholasCage.gif
-1991,139,"Two Thousand One, A Space Odyssey",Science Fiction,,Missing,"Kubrick, Stanley",31,No,NicholasCage.gif
+1991,139,"Two Thousand One, A Space Odyssey",Science Fiction,,,"Kubrick, Stanley",31,No,NicholasCage.gif
 1990,87,"All New Tales from the Crypt, A Trilogy",Horror,"Walsh, M. Emmet","Thompson, Lea","Deutch, Howard",33,No,NicholasCage.gif
-1989,90,Empire of Spiritual Ninja,Action,,Missing,"Lambert, Bruce",41,No,NicholasCage.gif
+1989,90,Empire of Spiritual Ninja,Action,,,"Lambert, Bruce",41,No,NicholasCage.gif
 1988,90,Golden Ninja Invasion,Action,"West, Leonard","Burd, Stephanie","Lambert, Bruce",13,No,NicholasCage.gif
 1986,108,Love Songs,Drama,"Lambert, Christopher","Deneuve, Catherine","Chouraqui, Elie",15,No,NicholasCage.gif
 1988,,Mama's Dirty Girls,Horror,"Currie, Sondra","Grahame, Gloria",,62,No,NicholasCage.gif
 1987,90,Ninja Masters of Death,Action,"Peterson, Chris","Kruize, Kelly","Lambert, Bruce",15,No,NicholasCage.gif
-1988,90,"Ninja, the Violent Sorcerer",Action,,Missing,"Lambert, Bruce",24,No,NicholasCage.gif
+1988,90,"Ninja, the Violent Sorcerer",Action,,,"Lambert, Bruce",24,No,NicholasCage.gif
 1989,103,Pet Sematary,Horror,"Gwynne, Fred","Crosby, Denise","Lambert, Mary",27,No,NicholasCage.gif
 1990,94,Priceless Beauty,Science Fiction,"Lambert, Christopher","Lane, Diane","Finch, Charles",7,No,NicholasCage.gif
 1987,,"Sicilian, The",Drama,"Lambert, Christopher","Sukowa, Barbara","Cimino, Michael",41,No,NicholasCage.gif
 1989,90,"Vampire Raiders, Ninja Queen",Action,"Peterson, Chris","Chan, Agnes","Lambert, Bruce",15,No,NicholasCage.gif
 1991,,Why Me?,Comedy,"Lambert, Christopher","Greist, Kim",,74,No,NicholasCage.gif
 1990,94,"Bellboy & the Playgirls, The",Drama,"Wilkinson, June",,"Coppola, Francis Ford",7,No,NicholasCage.gif
-1963,75,Dementia Thirteen,Horror,,Missing,"Coppola, Francis Ford",80,No,NicholasCage.gif
+1963,75,Dementia Thirteen,Horror,,,"Coppola, Francis Ford",80,No,NicholasCage.gif
 1989,86,Dracula's Widow,Horror,"Sommer, Josef","Kristel, Sylvia","Coppola, Christopher",55,No,NicholasCage.gif
 1987,112,Gardens of Stone,Drama,"Caan, James","Huston, Anjelica","Coppola, Francis Ford",27,No,NicholasCage.gif
 1991,96,"Hearts of Darkness, A Filmmaker's Apocalypse",Drama,"Bottoms, Sam","Coppola, Eleanor","Bahr, Fax",72,No,NicholasCage.gif
@@ -1056,7 +1056,7 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1971,74,"People, The",Drama,"Shatner, William","Darby, Kim","Coppola, Francis Ford",36,No,NicholasCage.gif
 1969,102,"Rain People, The",Drama,"Caan, James","Knight, Shirley","Coppola, Francis Ford",78,No,NicholasCage.gif
 1988,111,"Tucker, The Man & His Dream",Drama,"Bridges, Jeff","Allen, Joan","Coppola, Francis Ford",26,No,NicholasCage.gif
-1966,98,You're a Big Boy Now,Drama,,Missing,"Coppola, Francis Ford",36,No,NicholasCage.gif
+1966,98,You're a Big Boy Now,Drama,,,"Coppola, Francis Ford",36,No,NicholasCage.gif
 1970,107,"Conformist, The",Drama,"Trintignant, Jean-Louis","Sandrelli, Stefania","Bertolucci, Bernardo",72,No,NicholasCage.gif
 1962,100,"Grim Reaper, The",Drama,"Rulu, Francesco",,"Bertolucci, Bernardo",35,No,NicholasCage.gif
 1973,127,Last Tango in Paris,Drama,"Brando, Marlon","Schneider, Maria","Bertolucci, Bernardo",28,No,brando.gif
@@ -1074,34 +1074,34 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1975,87,They Came from Within,Horror,"Hampton, Paul",,"Cronenberg, David",21,No,NicholasCage.gif
 1989,87,Videodrome,Horror,"Woods, James","Harry, Deborah","Cronenberg, David",36,No,NicholasCage.gif
 1968,73,"Firemen's Ball, The",Comedy,"Vostrcil, Jan",,"Forman, Milos",8,No,NicholasCage.gif
-1991,122,Hair,Music,,Missing,"Forman, Milos",19,No,NicholasCage.gif
+1991,122,Hair,Music,,,"Forman, Milos",19,No,NicholasCage.gif
 1993,30,"Alfred Hitchcock Presents, Sorcerer's Apprentice",Mystery,"Hitchcock, Alfred","Dors, Diana",,60,No,NicholasCage.gif
-1992,72,"American Film Institute, Alfred Hitchcock",Mystery,"Hitchcock, Alfred",,Missing,70,No,NicholasCage.gif
+1992,72,"American Film Institute, Alfred Hitchcock",Mystery,"Hitchcock, Alfred",,,70,No,NicholasCage.gif
 1929,84,Blackmail,Mystery,"Longden, John","Algood, Sara","Hitchcock, Alfred",2,No,NicholasCage.gif
 1954,123,Dial M for Murder,Mystery,"Milland, Ray",,"Hitchcock, Alfred",52,No,NicholasCage.gif
-1927,60,Easy Virtue,Mystery,"Hitchcock, Alfred",,Missing,45,No,NicholasCage.gif
+1927,60,Easy Virtue,Mystery,"Hitchcock, Alfred",,,45,No,NicholasCage.gif
 1940,120,Foreign Correspondent,Mystery,"McCrea, Joel","Day, Laraine","Hitchcock, Alfred",61,No,NicholasCage.gif
 1953,95,I Confess,Drama,"Clift, Montgomery",,"Hitchcock, Alfred",63,No,NicholasCage.gif
 1939,94,Jamaica Inn,Drama,"Laughton, Charles","O'Hara, Maureen","Hitchcock, Alfred",75,No,NicholasCage.gif
 1938,96,Lady Vanishes,Mystery,"Redgrave, Michael","Lockwood, Margaret","Hitchcock, Alfred",27,No,NicholasCage.gif
-1926,66,Lodger (Story of the London Fog),Mystery,,Missing,"Hitchcock, Alfred",38,No,NicholasCage.gif
+1926,66,Lodger (Story of the London Fog),Mystery,,,"Hitchcock, Alfred",38,No,NicholasCage.gif
 1956,120,"Man Who Knew Too Much, The",Mystery,"Stewart, James","Day, Doris","Hitchcock, Alfred",15,No,NicholasCage.gif
 1929,129,"Manxman, The",Drama,"Brisson, Carl",,"Hitchcock, Alfred",65,No,NicholasCage.gif
 1941,95,Mr. & Mrs. Smith,Comedy,"Lombard, Carole",,"Hitchcock, Alfred",3,No,NicholasCage.gif
 1930,95,Murder,Mystery,"Marshall, Herbert",,"Hitchcock, Alfred",50,No,NicholasCage.gif
 1991,135,North by Northwest,Mystery,"Grant, Cary","Saint, Eva Marie","Hitchcock, Alfred",20,No,NicholasCage.gif
-1932,66,Number Seventeen,Mystery,,Missing,"Hitchcock, Alfred",0,No,NicholasCage.gif
+1932,66,Number Seventeen,Mystery,,,"Hitchcock, Alfred",0,No,NicholasCage.gif
 1960,109,Psycho,Horror,"Perkins, Anthony","Leigh, Janet","Hitchcock, Alfred",56,No,NicholasCage.gif
 1954,113,Rear Window,Mystery,"Stewart, James","Kelly, Grace","Hitchcock, Alfred",25,No,NicholasCage.gif
 1932,92,Rich & Strange,Drama,"Kendall, Henry","Barry, Joan","Hitchcock, Alfred",57,No,NicholasCage.gif
-1989,25,"Robyn Hitchcock, Brenda of the Lightbulb Eyes",Music,"Hitchcock, Robyn",,Missing,40,No,NicholasCage.gif
+1989,25,"Robyn Hitchcock, Brenda of the Lightbulb Eyes",Music,"Hitchcock, Robyn",,,40,No,NicholasCage.gif
 1948,81,Rope,Drama,"Stewart, James","Collier, Constance","Hitchcock, Alfred",39,No,NicholasCage.gif
-1936,77,Sabotage,Mystery,,Missing,"Hitchcock, Alfred",43,No,NicholasCage.gif
+1936,77,Sabotage,Mystery,,,"Hitchcock, Alfred",43,No,NicholasCage.gif
 1936,84,Secret Agent,Mystery,"Lorre, Peter","Carroll, Madeleine","Hitchcock, Alfred",50,No,NicholasCage.gif
 1950,110,Stage Fright,Mystery,"Dietrich, Marlene","Wyman, Jane","Hitchcock, Alfred",72,No,NicholasCage.gif
 1951,101,Strangers on a Train,Mystery,"Granger, Farley","Roman, Ruth","Hitchcock, Alfred",17,No,NicholasCage.gif
 1935,88,"Thirty-Nine Steps, The",Science Fiction,"Donat, Robert",,"Hitchcock, Alfred",8,No,NicholasCage.gif
-1990,45,This Is Horror,Horror,"King, Stephen",,Missing,3,No,NicholasCage.gif
+1990,45,This Is Horror,Horror,"King, Stephen",,,3,No,NicholasCage.gif
 1955,103,To Catch a Thief,Mystery,"Grant, Cary","Kelly, Grace","Hitchcock, Alfred",69,No,NicholasCage.gif
 1969,126,Topaz,Mystery,"Forsythe, John",,"Hitchcock, Alfred",12,No,NicholasCage.gif
 1966,125,Torn Curtain,Mystery,"Newman, Paul","Andrews, Julie","Hitchcock, Alfred",35,No,NicholasCage.gif
@@ -1113,7 +1113,7 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1990,110,Mystery Train,Comedy,"Nagase, Masatoshi","Kudoh, Youki","Jarmusch, Jim",23,No,NicholasCage.gif
 1992,128,Night on Earth,Drama,"Benigni, Roberto","Rowlands, Gena","Jarmusch, Jim",24,No,NicholasCage.gif
 1960,152,"Bad Sleep Well, The",Drama,"Mifune, Toshiro",,"Kurosawa, Akira",65,No,NicholasCage.gif
-1970,140,Dodes 'Ka-Den,Drama,,Missing,"Kurosawa, Akira",83,No,NicholasCage.gif
+1970,140,Dodes 'Ka-Den,Drama,,,"Kurosawa, Akira",83,No,NicholasCage.gif
 1951,166,"Idiot, The",Drama,"Mifune, Toshiro",,"Kurosawa, Akira",40,No,NicholasCage.gif
 1952,134,Ikiru,Drama,"Shimura, Takashi",,"Kurosawa, Akira",36,No,NicholasCage.gif
 1946,110,No Regrets for Our Youth,Drama,"Hara, Setsuko",,"Kurosawa, Akira",31,No,NicholasCage.gif
@@ -1127,12 +1127,12 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1989,114,School Daze,Comedy,"Fishburne, Larry","Campbell, Tisha","Lee, Spike",18,No,NicholasCage.gif
 1946,106,Cloak & Dagger,Mystery,"Cooper, Gary",,"Lang, Fritz",55,No,NicholasCage.gif
 1991,95,Fury,Drama,"Tracy, Spencer",,"Lang, Fritz",48,No,NicholasCage.gif
-1991,95,"Kriemhilde's Revenge, The Nibelungenlied",Drama,,Missing,"Lang, Fritz",59,No,NicholasCage.gif
+1991,95,"Kriemhilde's Revenge, The Nibelungenlied",Drama,,,"Lang, Fritz",59,No,NicholasCage.gif
 1926,139,Metropolis,Science Fiction,"Abel, Alfred",,"Lang, Fritz",49,No,NicholasCage.gif
 1945,101,Scarlet Street,Drama,"Robinson, Edward G.","Bennett, Joan","Lang, Fritz",5,No,NicholasCage.gif
 1945,101,Scarlet Street,Drama,"Robinson, Edward G.","Bennett, Joan","Lang, Fritz",71,No,NicholasCage.gif
 1948,99,Secret Beyond the Door,Mystery,"Redgrave, Michael","Bennett, Joan","Lang, Fritz",31,No,NicholasCage.gif
-1924,110,"Siegfried, The Nibelungenlied",Drama,,Missing,"Lang, Fritz",18,No,NicholasCage.gif
+1924,110,"Siegfried, The Nibelungenlied",Drama,,,"Lang, Fritz",18,No,NicholasCage.gif
 1920,137,Spiders,Drama,"De Vogy, Carl",,"Lang, Fritz",29,No,NicholasCage.gif
 1928,130,Spies,Drama,"Klein-Rogge, Rudolf",,"Lang, Fritz",49,No,NicholasCage.gif
 1933,120,"Testament of Dr. Mabuse, The",Drama,"Klein-Rogge, Rudolf",,"Lang, Fritz",4,No,NicholasCage.gif
@@ -1145,7 +1145,7 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1975,124,Jaws,Action,"Scheider, Roy","Gary, Lorraine","Spielberg, Steven",6,No,NicholasCage.gif
 1991,95,Night Gallery,Horror,"McDowall, Roddy","Crawford, Joan","Spielberg, Steven",31,No,NicholasCage.gif
 1979,120,Nineteen Forty-One,Comedy,"Belushi, John","Gary, Lorraine","Spielberg, Steven",24,No,NicholasCage.gif
-1986,120,Betty Blue,Drama,,Missing,"Beineix, Jean-Jacques",28,No,NicholasCage.gif
+1986,120,Betty Blue,Drama,,,"Beineix, Jean-Jacques",28,No,NicholasCage.gif
 1991,60,"America's Music, Blues",Music,"Hopkins, Linda","Redd, Vi","Walton, Kip",54,No,NicholasCage.gif
 1992,60,"America's Music, Gospel",Music,"Phipps, Wentley","Crouch, Sandra","Walton, Kip",13,No,NicholasCage.gif
 1991,113,Audrey Rose,Drama,"Hopkins, Anthony","Mason, Marsha",,62,No,AnthonyHopkins.gif
@@ -1174,35 +1174,35 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1976,150,"Lindbergh Kidnapping Case, The",Drama,"Hopkins, Anthony","Alexander, Denise","Kulik, Buzz",51,No,AnthonyHopkins.gif
 1978,106,Magic,Mystery,"Hopkins, Anthony",Ann-Margret,"Attenborough, Richard",85,No,AnthonyHopkins.gif
 1973,127,"Man Who Loved Cat Dancing, The",Westerns,"Reynolds, Burt","Miles, Sarah","Sarafian, Richard C.",40,No,NicholasCage.gif
-1990,,A Married Man,Drama,"Hopkins, Anthony",,Missing,79,No,AnthonyHopkins.gif
+1990,,A Married Man,Drama,"Hopkins, Anthony",,,79,No,AnthonyHopkins.gif
 1970,99,Monte Walsh,Westerns,"Marvin, Lee","Moreau, Jeanne","Fraker, William A.",29,No,NicholasCage.gif
 1988,96,Nightmare at Noon,Action,"Hauser, Wings","Beck, Kimberly","Mastorakis, Nico",0,No,NicholasCage.gif
 1989,90,"Nightmare on Elm Street, Pt. 5, The Dream Child",Horror,"Englund, Robert","Minter, Kelly Jo","Hopkins, Stephen",54,No,NicholasCage.gif
 1989,89,"Nightmare on Elm Street, Pt. 5, The Dream Child",Horror,"Englund, Robert","Minter, Kelly Jo","Hopkins, Stephen",21,No,NicholasCage.gif
 1939,96,"Old Maid, The",Drama,"Brent, George","Davis, Bette","Goulding, Edmund",18,No,NicholasCage.gif
-1975,85,"Only Way Home, The",Drama,"Hopkins, Bo",,Missing,60,No,NicholasCage.gif
-1982,208,Othello,Drama,"Hopkins, Anthony",,Missing,84,No,AnthonyHopkins.gif
+1975,85,"Only Way Home, The",Drama,"Hopkins, Bo",,,60,No,NicholasCage.gif
+1982,208,Othello,Drama,"Hopkins, Anthony",,,84,No,AnthonyHopkins.gif
 1964,52,"Outer Limits, Don't Open Till Doomsday, The",Science Fiction,,"Hopkins, Miriam","Oswald, Gerd",75,No,NicholasCage.gif
 1975,94,Posse,Westerns,"Douglas, Kirk",,"Douglas, Kirk",76,No,NicholasCage.gif
 1991,105,Predator 2,Action,"Glover, Danny","Alonso, Maria Conchita","Hopkins, Stephen",79,No,NicholasCage.gif
 1980,92,Rodeo Girl,Drama,"Hopkins, Bo","Ross, Katharine","Cooper, Jackie",80,No,NicholasCage.gif
-1993,,"Runaway Barge, The",Action,"Matheson, Tim",,Missing,38,No,NicholasCage.gif
+1993,,"Runaway Barge, The",Action,"Matheson, Tim",,,38,No,NicholasCage.gif
 1989,150,Sara Dane,Drama,"Hopkins, Harold",,"Hardy, Rod",75,No,NicholasCage.gif
 1989,90,"Savage Intruder, The",Horror,"Garfield, John David","Wing, Virginia","Wolfe, Donald",24,No,NicholasCage.gif
-1983,,Shakespeare Series,Drama,"Gielgud, John",,Missing,23,No,NicholasCage.gif
+1983,,Shakespeare Series,Drama,"Gielgud, John",,,23,No,NicholasCage.gif
 1986,94,A Smoky Mountain Christmas,Music,"Majors, Lee","Parton, Dolly","Winkler, Henry",23,No,NicholasCage.gif
 1977,90,Tentacles,Horror,"Huston, John","Winters, Shelley","Hellman, Oliver",62,No,NicholasCage.gif
 1986,85,Torment,Horror,"Gilbert, Taylor",,"Aslanian, Samson",8,No,NicholasCage.gif
 1990,98,Trapper County War,Action,"Hudson, Ernie","Russell, Betsy",,5,No,NicholasCage.gif
 1985,92,What Comes Around,Drama,"Reed, Jerry",,"Reed, Jerry",49,No,NicholasCage.gif
 1973,,White Lightning,Action,"Reynolds, Burt","Billingsley, Jennifer","Sargent, Joseph",62,No,NicholasCage.gif
-1992,101,White Lightning,Action,"Reynolds, Burt",,Missing,48,No,NicholasCage.gif
+1992,101,White Lightning,Action,"Reynolds, Burt",,,48,No,NicholasCage.gif
 1977,127,"American Friend, The",Mystery,"Hopper, Dennis","Kreuzer, Lisa","Wenders, Wim",35,No,NicholasCage.gif
 1956,129,"Bad Seed, The",Horror,"Jones, Henry","Kelly, Nancy","LeRoy, Mervyn",69,No,NicholasCage.gif
 1987,101,Black Widow,Mystery,"Hopper, Dennis","Winger, Debra","Rafelson, Bob",54,No,NicholasCage.gif
 1991,89,Bloodbath,Horror,"Hopper, Dennis","Baker, Carroll",,37,No,NicholasCage.gif
 1990,96,Chattahoochee,Drama,"Oldman, Gary",,"Jackson, Mick",30,No,NicholasCage.gif
-1957,60,"Cheyenne, The Iron Trail",Westerns,"Walker, Clint",,Missing,1,No,NicholasCage.gif
+1957,60,"Cheyenne, The Iron Trail",Westerns,"Walker, Clint",,,1,No,NicholasCage.gif
 1988,127,Colors,Drama,"Penn, Sean","Alonso, Maria Conchita","Hopper, Dennis",23,No,NicholasCage.gif
 1936,70,Doughnuts & Society,Comedy,"Nugent, Eddie","Fazenda, Louise","Collins, Lewis",28,No,NicholasCage.gif
 1927,,"Drop Kick, The",Comedy,"Barthelmess, Richard","Hopper, Hedda",,5,No,NicholasCage.gif
@@ -1229,27 +1229,27 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1954,30,Bank on the Stars,Drama,"Lancaster, Burt","Laurie, Piper",,82,No,NicholasCage.gif
 1962,105,A Child Is Waiting,Drama,"Lancaster, Burt","Garland, Judy","Cassavetes, John",60,No,NicholasCage.gif
 1988,83,Control,Drama,"Lancaster, Burt","Nelligan, Kate",,27,No,NicholasCage.gif
-1992,112,Conversation Piece,Drama,"Lancaster, Burt",,Missing,1,No,NicholasCage.gif
-1992,105,"Crimson Pirate, The",Action,"Lancaster, Burt",,Missing,60,No,NicholasCage.gif
+1992,112,Conversation Piece,Drama,"Lancaster, Burt",,,1,No,NicholasCage.gif
+1992,105,"Crimson Pirate, The",Action,"Lancaster, Burt",,,60,No,NicholasCage.gif
 1948,88,Criss Cross,Drama,"Lancaster, Burt",,"Siodmak, Robert",77,No,NicholasCage.gif
-1992,83,"Devil's Disciple, The",Mystery,"Lancaster, Burt",,Missing,65,No,NicholasCage.gif
+1992,83,"Devil's Disciple, The",Mystery,"Lancaster, Burt",,,65,No,NicholasCage.gif
 1973,91,Executive Action,Drama,"Lancaster, Burt",,"Miller, David",6,No,NicholasCage.gif
 1992,89,"Flame & the Arrow, The",Action,"Lancaster, Burt","Mayo, Virginia",,0,No,NicholasCage.gif
-1978,114,Go Tell the Spartans,Drama,"Lancaster, Burt",,Missing,50,No,NicholasCage.gif
+1978,114,Go Tell the Spartans,Drama,"Lancaster, Burt",,,50,No,NicholasCage.gif
 1978,114,Go Tell the Spartans,Drama,"Lancaster, Burt",,"Post, Ted",19,No,NicholasCage.gif
 1957,120,Gunfight at the OK Corral,Westerns,"Lancaster, Burt","Fleming, Rhonda","Sturges, John",84,No,NicholasCage.gif
-1992,166,"Hallelujah Trail, The",Drama,"Lancaster, Burt",,Missing,6,No,NicholasCage.gif
+1992,166,"Hallelujah Trail, The",Drama,"Lancaster, Burt",,,6,No,NicholasCage.gif
 1953,92,His Majesty O'Keefe,Action,"Lancaster, Burt",,"Haskin, Byron",3,No,NicholasCage.gif
 1977,99,"Island of Dr. Moreau, The",Horror,"Lancaster, Burt","Carrera, Barbara","Taylor, Don",1,No,NicholasCage.gif
 1983,112,Local Hero,Comedy,"Riegert, Peter",,"Forsyth, Bill",54,No,NicholasCage.gif
 1991,221,On Wings of Eagles,Action,"Lancaster, Burt",,"McLaglen, Andrew V.",50,No,NicholasCage.gif
-1992,221,On Wings of Eagles,Action,"Lancaster, Burt",,Missing,40,No,NicholasCage.gif
+1992,221,On Wings of Eagles,Action,"Lancaster, Burt",,,40,No,NicholasCage.gif
 1956,121,"Rainmaker, The",Drama,"Lancaster, Burt","Hepburn, Katharine","Anthony, Joseph",21,No,NicholasCage.gif
 1988,100,Rocket Gibraltar,Drama,"Lancaster, Burt",,"Petrie, Daniel",26,No,NicholasCage.gif
 1968,100,"Scalphunters, The",Westerns,"Lancaster, Burt","Winters, Shelley","Pollack, Sidney",33,No,NicholasCage.gif
 1991,193,Separate but Equal,Drama,"Poitier, Sidney",,"Stevens, George, Jr.",56,No,NicholasCage.gif
 1957,97,Sweet Smell of Success,Drama,"Lancaster, Burt",,"Mackendrick, Alexander",12,No,NicholasCage.gif
-1992,133,"Train, The",Action,"Lancaster, Burt",,Missing,68,No,NicholasCage.gif
+1992,133,"Train, The",Action,"Lancaster, Burt",,,68,No,NicholasCage.gif
 1977,146,Twilight's Last Gleaming,Drama,"Lancaster, Burt",,"Aldrich, Robert",84,No,NicholasCage.gif
 1960,123,"Unforgiven, The",Drama,"Lancaster, Burt","Hepburn, Audrey","Huston, John",32,No,NicholasCage.gif
 1953,94,Vera Cruz,Action,"Cooper, Gary",,"Aldrich, Robert",71,No,NicholasCage.gif
@@ -1268,18 +1268,18 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1990,,Running Away,Drama,"Loggia, Robert","Loren, Sophia",,2,No,NicholasCage.gif
 1991,145,"Sophia Loren, Her Own Story",Drama,"Gavin, John","Loren, Sophia",,49,No,NicholasCage.gif
 1954,92,Two Nights with Cleo,Drama,,"Loren, Sophia",,39,No,NicholasCage.gif
-1990,101,"Goalie's Anxiety at the Penalty Kick, The",Drama,,Missing,"Wenders, Wim",74,No,NicholasCage.gif
+1990,101,"Goalie's Anxiety at the Penalty Kick, The",Drama,,,"Wenders, Wim",74,No,NicholasCage.gif
 1976,176,Kings of the Road (In the Course of Time),Drama,"Vogler, Rudiger",,"Wenders, Wim",41,No,NicholasCage.gif
-1989,90,"Scarlet Letter, The",Drama,,Missing,"Wenders, Wim",57,No,NicholasCage.gif
+1989,90,"Scarlet Letter, The",Drama,,,"Wenders, Wim",57,No,NicholasCage.gif
 1987,130,Wings of Desire,Drama,"Ganz, Bruno","Dommartin, Solveig","Wenders, Wim",71,No,NicholasCage.gif
 1992,53,"Gotta Dance, Gotta Sing",Music,"Astaire, Fred","Rogers, Ginger",,20,No,NicholasCage.gif
-1955,57,Jack Benny Show,Comedy,"Benny, Jack",,Missing,51,No,NicholasCage.gif
+1955,57,Jack Benny Show,Comedy,"Benny, Jack",,,51,No,NicholasCage.gif
 1979,94,"Jerk, The",Comedy,"Martin, Steve","Peters, Bernadette","Reiner, Carl",22,No,NicholasCage.gif
-1991,98,L. A. Story,Comedy,"Martin, Steve",,Missing,81,No,NicholasCage.gif
+1991,98,L. A. Story,Comedy,"Martin, Steve",,,81,No,NicholasCage.gif
 1983,90,"Man with Two Brains, The",Comedy,"Martin, Steve","Turner, Kathleen","Reiner, Carl",68,No,NicholasCage.gif
 1985,55,Rowlf's Rhapsodies with the Muppets,Comedy,"Burns, George","Berenson, Marisa",,79,No,NicholasCage.gif
-1986,60,Steve Martin Live!,Comedy,"Martin, Steve",,Missing,3,No,NicholasCage.gif
-1974,60,"Steve Martin, The Funnier Side of Eastern Canada",Comedy,"Martin, Steve",,Missing,34,No,NicholasCage.gif
+1986,60,Steve Martin Live!,Comedy,"Martin, Steve",,,3,No,NicholasCage.gif
+1974,60,"Steve Martin, The Funnier Side of Eastern Canada",Comedy,"Martin, Steve",,,34,No,NicholasCage.gif
 1979,85,Cocaine Cowboys,Action,"Palance, Jack","Love, Suzanna","Lommel, Ulli",17,No,NicholasCage.gif
 1975,101,"Driver's Seat, The",Drama,"Bannen, Ian","Taylor, Elizabeth","Griffi, Giuseppe Patroni",72,No,NicholasCage.gif
 1987,95,Blind Date,Comedy,"Willis, Bruce","Basinger, Kim","Edwards, Blake",7,No,NicholasCage.gif
@@ -1315,7 +1315,7 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1984,102,No Small Affair,Comedy,"Cryer, Jon","Moore, Demi","Schatzberg, Jerry",10,No,NicholasCage.gif
 1991,94,Nothing But Trouble,Comedy,"Candy, John","Moore, Demi","Aykroyd, Dan",25,No,NicholasCage.gif
 1967,107,Bedazzled,Comedy,"Cook, Peter","Welch, Raquel","Donen, Stanley",67,No,NicholasCage.gif
-1991,90,"Best of What's Left of...Not Only...But, The",Comedy,"Cook, Peter",,Missing,71,No,NicholasCage.gif
+1991,90,"Best of What's Left of...Not Only...But, The",Comedy,"Cook, Peter",,,71,No,NicholasCage.gif
 1992,79,Blame It on the Bellboy,Comedy,"Moore, Dudley","Kensit, Patsy","Herman, Mark",69,No,NicholasCage.gif
 1991,160,"Great Race, The",Comedy,"Moore, Dudley","Wood, Natalie","Edwards, Blake",88,No,NicholasCage.gif
 1987,101,Like Father Like Son,Comedy,"Cameron, Kirk","Colin, Margaret","Daniel, Rod",20,No,NicholasCage.gif
@@ -1328,51 +1328,51 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1969,125,Those Daring Young Men in Their Jaunty,Comedy,"Curtis, Tony","Hampshire, Susan",,59,No,NicholasCage.gif
 1984,96,Unfaithfully Yours,Comedy,"Moore, Dudley","Kinski, Nastassia","Zieff, Howard",73,No,NicholasCage.gif
 1980,109,Wholly Moses!,Comedy,"Moore, Dudley","Newman, Laraine","Weis, Gary",25,No,NicholasCage.gif
-1990,,Bang the Drum Slowly,Drama,"Newman, Paul",,Missing,30,No,NicholasCage.gif
+1990,,Bang the Drum Slowly,Drama,"Newman, Paul",,,30,No,NicholasCage.gif
 1992,213,Exodus,Drama,"Newman, Paul","Saint, Eva Marie","Preminger, Otto",13,No,NicholasCage.gif
 1987,134,"Glass Menagerie, The",Drama,"Malkovich, John","Woodward, Joanne","Newman, Paul",68,No,NicholasCage.gif
-1992,121,Harper,Mystery,"Newman, Paul",,Missing,86,No,NicholasCage.gif
+1992,121,Harper,Mystery,"Newman, Paul",,,86,No,NicholasCage.gif
 1989,117,Harry & Son,Drama,"Newman, Paul","Woodward, Joanne","Newman, Paul",57,No,NicholasCage.gif
 1967,111,Hombre,Westerns,"Newman, Paul","Cilento, Diane","Ritt, Martin",50,No,NicholasCage.gif
-1992,102,"Left Handed Gun, The",Westerns,"Newman, Paul",,Missing,26,No,NicholasCage.gif
+1992,102,"Left Handed Gun, The",Westerns,"Newman, Paul",,,26,No,NicholasCage.gif
 1973,100,"Mackintosh Man, The",Action,"Newman, Paul","Sanda, Dominique","Huston, John",65,No,NicholasCage.gif
 1993,,Mr. & Mrs. Bridge,Drama,"Newman, Paul","Woodward, Joanne",,29,No,NicholasCage.gif
-1989,,Once upon a Wheel,Action,"Newman, Paul",,Missing,40,No,NicholasCage.gif
+1989,,Once upon a Wheel,Action,"Newman, Paul",,,40,No,NicholasCage.gif
 1961,98,Paris Blues,Drama,"Newman, Paul","Woodward, Joanne","Ritt, Martin",54,No,NicholasCage.gif
 1972,100,Pocket Money,Comedy,"Newman, Paul","Belford, Christine","Rosenberg, Stuart",55,No,NicholasCage.gif
-1992,136,"Prize, The",Drama,"Newman, Paul",,Missing,66,No,NicholasCage.gif
+1992,136,"Prize, The",Drama,"Newman, Paul",,,66,No,NicholasCage.gif
 1979,110,Quintet,Drama,"Newman, Paul","Andersson, Bibi","Altman, Robert",19,No,NicholasCage.gif
 1968,102,"Rachel, Rachel",Drama,"Olson, James","Woodward, Joanne","Newman, Paul",32,No,NicholasCage.gif
-1968,,"Secret War of Harry Frigg, The",Comedy,"Newman, Paul",,Missing,28,No,NicholasCage.gif
+1968,,"Secret War of Harry Frigg, The",Comedy,"Newman, Paul",,,28,No,NicholasCage.gif
 1978,88,Silent Movie,Comedy,"Brooks, Mel","Peters, Bernadette","Brooks, Mel",27,No,NicholasCage.gif
 1977,123,Slap Shot,Comedy,"Newman, Paul","Crouse, Lindsay","Hill, George Roy",82,No,NicholasCage.gif
 1956,97,Somebody up There Likes Me,Drama,"Newman, Paul",,"Wise, Robert",56,No,NicholasCage.gif
 1971,115,Sometimes a Great Notion,Drama,"Newman, Paul",,"Newman, Paul",7,No,NicholasCage.gif
-1953,120,Tales of Tomorrow,Horror,"Karloff, Boris",,Missing,0,No,NicholasCage.gif
+1953,120,Tales of Tomorrow,Horror,"Karloff, Boris",,,0,No,NicholasCage.gif
 1992,95,Until They Sail,Drama,"Newman, Paul","Simmons, Jean","Wise, Robert",77,No,NicholasCage.gif
 1992,,After the Fox,Comedy,"Sellers, Peter","Ekland, Britt","De Sica, Vittorio",60,No,NicholasCage.gif
 1967,103,"Bobo, The",Comedy,"Sellers, Peter","Ekland, Britt","Parrish, Robert",80,No,NicholasCage.gif
-1989,88,Carlton-Browne of the F. O.,Comedy,"Sellers, Peter",,Missing,88,No,NicholasCage.gif
-1991,88,Carlton-Browne of the F.O.,Comedy,"Sellers, Peter",,Missing,64,No,NicholasCage.gif
-1956,27,"Case of the Mukkinese Battle Horn, The",Comedy,"Sellers, Peter",,Missing,45,No,NicholasCage.gif
+1989,88,Carlton-Browne of the F. O.,Comedy,"Sellers, Peter",,,88,No,NicholasCage.gif
+1991,88,Carlton-Browne of the F.O.,Comedy,"Sellers, Peter",,,64,No,NicholasCage.gif
+1956,27,"Case of the Mukkinese Battle Horn, The",Comedy,"Sellers, Peter",,,45,No,NicholasCage.gif
 1980,100,"Fiendish Plot of Dr. Fu Manchu, The",Comedy,"Sellers, Peter","Mirren, Helen","Haggard, Piers",29,No,NicholasCage.gif
-1953,75,"Goon Show Movie, The",Comedy,"Sellers, Peter",,Missing,80,No,NicholasCage.gif
-1975,95,"Great McGonagall, The",Comedy,"Sellers, Peter",,Missing,72,No,NicholasCage.gif
+1953,75,"Goon Show Movie, The",Comedy,"Sellers, Peter",,,80,No,NicholasCage.gif
+1975,95,"Great McGonagall, The",Comedy,"Sellers, Peter",,,72,No,NicholasCage.gif
 1963,113,Heavens Above,Comedy,"Sellers, Peter",,"Boulting, John",38,No,NicholasCage.gif
-1991,101,I'm All Right Jack,Comedy,"Sellers, Peter",,Missing,23,No,NicholasCage.gif
+1991,101,I'm All Right Jack,Comedy,"Sellers, Peter",,,23,No,NicholasCage.gif
 1956,87,"Ladykillers, The",Comedy,"Guinness, Alec",,"Mackendrick, Alexander",28,No,NicholasCage.gif
-1991,101,"Magic Christian, The",Comedy,"Sellers, Peter",,Missing,75,No,NicholasCage.gif
+1991,101,"Magic Christian, The",Comedy,"Sellers, Peter",,,75,No,NicholasCage.gif
 1985,56,Muppet Treasures,Comedy,"Merman, Ethel","Lynn, Loretta",,73,No,NicholasCage.gif
 1993,92,"Naked Truth, The",Comedy,"Sellers, Peter","Eaton, Shirley",,34,No,NicholasCage.gif
-1960,91,Never Let Go,Action,"Sellers, Peter",,Missing,5,No,NicholasCage.gif
+1960,91,Never Let Go,Action,"Sellers, Peter",,,5,No,NicholasCage.gif
 1990,,"Party, The",Comedy,"Sellers, Peter","Champion, Marge","Edwards, Blake",32,No,NicholasCage.gif
-1991,121,"Pink Panther, The",Comedy,"Sellers, Peter",,Missing,77,No,NicholasCage.gif
+1991,121,"Pink Panther, The",Comedy,"Sellers, Peter",,,77,No,NicholasCage.gif
 1979,108,"Prisoner of Zenda, The",Comedy,"Sellers, Peter",,"Quine, Richard",12,No,NicholasCage.gif
 1962,91,Road to Hong Kong,Comedy,"Hope, Bob","Collins, Joan","Panama, Norman",37,No,NicholasCage.gif
 1964,101,A Shot in the Dark,Comedy,"Sellers, Peter","Sommer, Elke","Edwards, Blake",51,No,NicholasCage.gif
 1988,81,"Smallest Show on Earth, The",Comedy,"Sellers, Peter","Rutherford, Margaret","Dearden, Basil",24,No,NicholasCage.gif
-1958,92,Tom Thumb,Science Fiction,"Tamblyn, Russ",,Missing,30,No,NicholasCage.gif
-1991,84,Two-Way Stretch,Comedy,"Sellers, Peter",,Missing,7,No,NicholasCage.gif
+1958,92,Tom Thumb,Science Fiction,"Tamblyn, Russ",,,30,No,NicholasCage.gif
+1991,84,Two-Way Stretch,Comedy,"Sellers, Peter",,,7,No,NicholasCage.gif
 1958,83,Up the Creek,Comedy,"Sellers, Peter",,"Guest, Val",54,No,NicholasCage.gif
 1965,108,What's New Pussycat,Comedy,"O'Toole, Peter","Prentiss, Paula","Donner, Clive",83,No,NicholasCage.gif
 1967,99,Woman Times Seven,Comedy,"Sellers, Peter","MacLaine, Shirley","De Sica, Vittorio",36,No,NicholasCage.gif
@@ -1389,21 +1389,21 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1991,116,Boom Town,Drama,"Tracy, Spencer","Hepburn, Katharine",,73,No,NicholasCage.gif
 1957,153,Desk Set,Comedy,"Tracy, Spencer","Hepburn, Katharine","Lang, Walter",51,No,NicholasCage.gif
 1991,145,Dragon Seed,Drama,"Tracy, Spencer","Hepburn, Katharine",,34,No,NicholasCage.gif
-1991,108,Edison the Man,Drama,"Tracy, Spencer",,Missing,19,No,NicholasCage.gif
+1991,108,Edison the Man,Drama,"Tracy, Spencer",,,19,No,NicholasCage.gif
 1950,,Father of the Bride,Comedy,"Taylor, Rod","Taylor, Elizabeth","Minnelli, Vincente",54,No,NicholasCage.gif
 1991,87,Father's Little Dividend,Comedy,"Tracy, Spencer",,"Minnelli, Vincente",52,No,NicholasCage.gif
 1943,,A Guy Named Joe,Drama,"Tracy, Spencer","Dunne, Irene","Fleming, Victor",42,No,NicholasCage.gif
-1991,128,Inherit the Wind,Drama,"Kelly, Gene",,Missing,18,No,NicholasCage.gif
-1991,101,Keeper of the Flame,Drama,"Tracy, Spencer",,Missing,76,No,NicholasCage.gif
+1991,128,Inherit the Wind,Drama,"Kelly, Gene",,,18,No,NicholasCage.gif
+1991,101,Keeper of the Flame,Drama,"Tracy, Spencer",,,76,No,NicholasCage.gif
 1936,89,Libeled Lady,Comedy,"Harlow, Jean","Loy, Myrna","Conway, Jack",86,No,NicholasCage.gif
 1991,115,Little Women,Drama,"Tracy, Spencer","Hepburn, Katharine",,22,No,NicholasCage.gif
 1940,127,Northwest Passage,Action,"Tracy, Spencer","Hussey, Ruth","Vidor, King",51,No,NicholasCage.gif
 1952,95,Pat & Mike,Comedy,"Tracy, Spencer","Hepburn, Katharine","Cukor, George",48,No,NicholasCage.gif
 1991,113,"Philadelphia Story, The",Comedy,"Tracy, Spencer","Hepburn, Katharine",,25,No,NicholasCage.gif
-1992,94,Riff Raff,Comedy,"Harlow, Jean",,Missing,79,No,NicholasCage.gif
+1992,94,Riff Raff,Comedy,"Harlow, Jean",,,79,No,NicholasCage.gif
 1991,132,"Sea of Grass, The",Westerns,"Tracy, Spencer","Hepburn, Katharine","Kazan, Elia",75,No,NicholasCage.gif
 1991,111,"Seventh Cross, The",Drama,"Tracy, Spencer","Tandy, Jessica",,35,No,NicholasCage.gif
-1991,92,"Spencer Tracy Legacy, The",Comedy,"Tracy, Spencer",,Missing,44,No,NicholasCage.gif
+1991,92,"Spencer Tracy Legacy, The",Comedy,"Tracy, Spencer",,,44,No,NicholasCage.gif
 1939,101,Stanley & Livingstone,Action,"Tracy, Spencer","Kelly, Nancy","King, Henry",11,No,NicholasCage.gif
 1991,118,Test Pilot,Drama,"Gable, Clark","Loy, Myrna",,13,No,NicholasCage.gif
 1944,139,Thirty Seconds over Tokyo,War,"Tracy, Spencer",,"LeRoy, Mervyn",45,No,NicholasCage.gif
@@ -1418,7 +1418,7 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1979,87,Attack of the Killer Tomatoes,Comedy,"Wilson, George",,"DeBello, John",47,No,NicholasCage.gif
 1991,115,Bataan,War,"Taylor, Robert","Arnaz, Desi",,68,No,NicholasCage.gif
 1949,119,"Battleground, The",War,"Johnson, Van",,"Wellman, William",7,No,NicholasCage.gif
-1989,90,Beartooth,Action,"Taylor, Dub",,Missing,70,No,NicholasCage.gif
+1989,90,Beartooth,Action,"Taylor, Dub",,,70,No,NicholasCage.gif
 1984,106,Beat Street,Drama,"Davis, Guy","Chong, Rae Dawn","Lathan, Stan",72,No,NicholasCage.gif
 1983,105,Between Friends,Drama,,"Taylor, Elizabeth",,4,No,NicholasCage.gif
 1973,71,"Big Bust Out, The",Action,"Carter, Karen","McGee, Vonetta","Jackson, Richard",39,No,NicholasCage.gif
@@ -1429,27 +1429,27 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1941,57,Bury Me Not on the Lone Prairie,Westerns,"Brown, Johnny Mack",,"Taylor, Ray",85,No,NicholasCage.gif
 1974,82,"Catamount Killing, The",Action,"Buchholz, Horst","Wedgeworth, Ann","Zanussi, Krzystoff",84,No,NicholasCage.gif
 1947,61,Check Your Guns,Westerns,"Dean, Eddie",,"Taylor, Ray",80,No,NicholasCage.gif
-1967,105,Chuka,Westerns,"Taylor, Rod",,Missing,47,No,NicholasCage.gif
+1967,105,Chuka,Westerns,"Taylor, Rod",,,47,No,NicholasCage.gif
 1963,243,Cleopatra,Drama,"Burton, Richard","Taylor, Elizabeth","Mankiewicz, Joseph L.",80,No,NicholasCage.gif
 1949,58,Crashing Thru,Westerns,"Wilson, Whip","Larson, Christine","Taylor, Ray",19,No,NicholasCage.gif
 1963,89,"Crawling Hand, The",Science Fiction,"Breck, Peter",,"Strock, Herbert L.",79,No,NicholasCage.gif
 1976,95,Creature from Black Lake,Horror,"Elam, Jack",,"Houck, Joy, Jr.",88,No,NicholasCage.gif
-1980,93,Cry of the Innocent,Drama,"Taylor, Rod",,Missing,13,No,NicholasCage.gif
+1980,93,Cry of the Innocent,Drama,"Taylor, Rod",,,13,No,NicholasCage.gif
 1956,106,"D-Day, The Sixth of June",War,"Taylor, Robert",,"Koster, Henry",84,No,NicholasCage.gif
 1988,60,Daphnis & Chloe,Music,"Morrow, Carl","Taylor, Victoria","Wimhurst, Jolyon",85,No,NicholasCage.gif
-1973,105,Deadly Trackers,Westerns,"Harris, Richard",,Missing,54,No,NicholasCage.gif
-1989,,"Death Valley Days, No Gun Behind His Badge",Westerns,"Reagan, Ronald",,Missing,1,No,NicholasCage.gif
+1973,105,Deadly Trackers,Westerns,"Harris, Richard",,,54,No,NicholasCage.gif
+1989,,"Death Valley Days, No Gun Behind His Badge",Westerns,"Reagan, Ronald",,,1,No,NicholasCage.gif
 1988,93,"Diamond Trap, The",Drama,"Hessman, Howard","Shields, Brooke","Taylor, Don",58,No,NicholasCage.gif
 1926,126,Don Juan,Action,"Barrymore, John","Astor, Mary","Crosland, Alan",55,No,NicholasCage.gif
 1954,103,Elephant Walk,Drama,"Finch, Peter","Andrews, Dana",,11,No,NicholasCage.gif
 1991,,"Elizabeth Taylor Collection, The",Drama,"Fisher, Eddie","Taylor, Elizabeth",,21,No,NicholasCage.gif
-1990,59,"Erasure, Live Wild!",Music,,Missing,"Taylor, Gavin",48,No,NicholasCage.gif
-1989,61,Exile in Concert,Music,"Pennington, J. P.",,Missing,12,No,NicholasCage.gif
-1988,65,"Face at the Window, The",Horror,"Slaughter, Tod",,Missing,79,No,NicholasCage.gif
+1990,59,"Erasure, Live Wild!",Music,,,"Taylor, Gavin",48,No,NicholasCage.gif
+1989,61,Exile in Concert,Music,"Pennington, J. P.",,,12,No,NicholasCage.gif
+1988,65,"Face at the Window, The",Horror,"Slaughter, Tod",,,79,No,NicholasCage.gif
 1947,58,"Fighting Vigilantes, The",Westerns,"LaRue, Lash",,"Taylor, Ray",21,No,NicholasCage.gif
 1980,92,"Final Countdown, The",Action,"Douglas, Kirk","Ross, Katharine","Taylor, Don",35,No,NicholasCage.gif
 1938,298,Flaming Frontiers,Westerns,"Brown, Johnny Mack","Hansen, Eleanor","Taylor, Ray",82,No,NicholasCage.gif
-1942,253,Gangbusters,Drama,"Taylor, Kent",,Missing,31,No,NicholasCage.gif
+1942,253,Gangbusters,Drama,"Taylor, Kent",,,31,No,NicholasCage.gif
 1984,,Gary Numan - Berzerker,Music,"Webb, John","Taylor, Karen",,60,No,NicholasCage.gif
 1992,90,Germicide,Drama,"Taylor, Rod","Andersson, Bibi",,36,No,NicholasCage.gif
 1988,90,Going for the Gold,Action,"Edwards, Anthony","Parker, Sarah Jessica","Taylor, Dan",10,No,NicholasCage.gif
@@ -1459,18 +1459,18 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1987,120,Innerspace,Science Fiction,"Quaid, Dennis","Ryan, Meg","Dante, Joe",41,No,NicholasCage.gif
 1991,102,Instant Karma,Comedy,"Cassidy, David",,"Taylor, Roderick",47,No,NicholasCage.gif
 1977,99,"Island of Dr. Moreau, The",Horror,"Lancaster, Burt","Carrera, Barbara","Taylor, Don",2,No,NicholasCage.gif
-1979,90,James Taylor in Concert,Music,"Taylor, James",,Missing,38,No,NicholasCage.gif
+1979,90,James Taylor in Concert,Music,"Taylor, James",,,38,No,NicholasCage.gif
 1944,96,Jane Eyre,Drama,"Welles, Orson","Fontaine, Joan","Stevenson, Robert",44,No,NicholasCage.gif
 1966,102,Johnny Tiger,Drama,"Taylor, Robert","Scott, Brenda","Wendkos, Paul",69,No,NicholasCage.gif
 1959,91,Killers of Kilimanjaro,Action,"Taylor, Robert","Aslan, Gregoire","Thorpe, Richard",11,No,NicholasCage.gif
 1943,90,Lassie Come Home,Drama,"McDowall, Roddy","Taylor, Elizabeth","Wilcox, Fred M",79,No,NicholasCage.gif
 1972,98,Last of the Red Hot Lovers,Comedy,"Arkin, Alan","Kellerman, Sally","Saks, Gene",40,No,NicholasCage.gif
-1992,87,"Law & Jake Wade, The",Drama,"Taylor, Robert",,Missing,68,No,NicholasCage.gif
+1992,87,"Law & Jake Wade, The",Drama,"Taylor, Robert",,,68,No,NicholasCage.gif
 1940,57,Law & Order,Westerns,"Brown, Johnny Mack",,"Taylor, Ray",87,No,NicholasCage.gif
 1947,53,Law of the Lash,Westerns,"LaRue, Lash",,"Taylor, Ray",66,No,NicholasCage.gif
 1947,118,Life with Father,Comedy,"Powell, William","Dunne, Irene","Curtiz, Michael",10,No,NicholasCage.gif
 1977,110,A Little Night Music,Music,"Cariou, Len","Taylor, Elizabeth","Prince, Harold",61,No,NicholasCage.gif
-1990,60,Live at Harrah's,Comedy,"Cosby, Bill",,Missing,6,No,NicholasCage.gif
+1990,60,Live at Harrah's,Comedy,"Cosby, Bill",,,6,No,NicholasCage.gif
 1943,60,"Lone Star Trail, The",Westerns,"Brown, Johnny Mack","Ritter, Tex","Taylor, Ray",27,No,NicholasCage.gif
 1954,108,Long John Silver,Action,"Newton, Robert","Gilchrist, Connie","Haskin, Byron",56,No,NicholasCage.gif
 1981,94,Looker,Science Fiction,"Finney, Albert","Dey, Susan","Crichton, Michael",62,No,NicholasCage.gif
@@ -1481,7 +1481,7 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1977,102,Mary White,Drama,"Flanders, Ed","Beller, Kathleen","Taylor, Jud",2,No,NicholasCage.gif
 1970,89,Menace on the Mountain,Action,"Crowley, Pat",,"McEveety, Vincent",69,No,NicholasCage.gif
 1989,60,Minsky's Follies,Comedy,"Taylor, Rip","Diller, Phyllis",,12,No,NicholasCage.gif
-1953,91,"Mummy's Revenge, The",Horror,"Naschy, Paul",,Missing,56,No,NicholasCage.gif
+1953,91,"Mummy's Revenge, The",Horror,"Naschy, Paul",,,56,No,NicholasCage.gif
 1927,78,My Best Girl,Drama,"Rogers, Charles","Pickford, Mary","Taylor, Sam",31,No,NicholasCage.gif
 1937,60,Mystery of the Hooded Horsemen,Westerns,"Ritter, Tex",,"Taylor, Ray",52,No,NicholasCage.gif
 1971,102,A New Leaf,Comedy,"Matthau, Walter","Arrick, Rose","May, Elaine",83,No,NicholasCage.gif
@@ -1499,14 +1499,14 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1992,53,Return of the Lash,Action,"LaRue, Lash",,"Taylor, Ray",78,No,NicholasCage.gif
 1940,56,Riders of Pasco Basin,Westerns,"Brown, Johnny Mack",,"Taylor, Ray",17,No,NicholasCage.gif
 1986,88,Roller Blade,Action,"Hutchinson, Jeff","Solari, Suzanne","Jackson, Donald",12,No,NicholasCage.gif
-1992,,El Rublo de las Dos Caras,Action,"Taylor, Robert",,Missing,83,No,NicholasCage.gif
+1992,,El Rublo de las Dos Caras,Action,"Taylor, Robert",,,83,No,NicholasCage.gif
 1988,94,"Rumor Mill, The",Drama,,"Taylor, Elizabeth",,78,No,NicholasCage.gif
 1972,78,Say Goodbye Maggie Cole,Drama,"McGavin, Darren","Hayward, Susan","Taylor, Jud",84,No,NicholasCage.gif
 1992,98,Secret Admirer,Comedy,"Howell, C. Thomas","Loughlin, Lori",,55,No,NicholasCage.gif
 1968,109,Secret Ceremony,Drama,"Mitchum, Robert","Taylor, Elizabeth","Losey, Joseph",60,No,NicholasCage.gif
 1949,59,Shadows of the West,Westerns,"Wilson, Whip",,"Taylor, Ray",40,No,NicholasCage.gif
 1992,96,Shooting Elizabeth,Mystery,"Goldblum, Jeff","Rogers, Mimi","Taylor, Baz",5,No,NicholasCage.gif
-1993,96,"Silent One, The",Action,,Missing,"Taylor, Ron",66,No,NicholasCage.gif
+1993,96,"Silent One, The",Action,,,"Taylor, Ron",66,No,NicholasCage.gif
 1956,99,Slightly Scarlet,Action,"Payne, John","Fleming, Rhonda","Dwan, Allan",52,No,NicholasCage.gif
 1984,96,Soggy Bottom U. S. A.,Comedy,"Johnson, Ben","Wedgeworth, Ann","Flicker, Theodore J.",50,No,NicholasCage.gif
 1989,35,A Star in the Breaking,Drama,"Dammann, Joseph","Boseman, Terry","Cullingham, Mark",1,No,NicholasCage.gif
@@ -1531,11 +1531,11 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1966,101,"Shoot Loud, Louder, I Don't Understand!",Mystery,"Mastroianni, Marcello","Welch, Raquel","De Filippo, Eduardo",70,No,NicholasCage.gif
 1990,,Sounds of the Seventies...& the Beat Goes,Music,"Jones, Tom","Welch, Raquel",,13,No,NicholasCage.gif
 1975,90,"Wild Party, The",Drama,"Dukes, David","Welch, Raquel","Ivory, James",75,No,NicholasCage.gif
-1989,103,Blood & Guns,Action,"Welles, Orson",,Missing,43,No,NicholasCage.gif
+1989,103,Blood & Guns,Action,"Welles, Orson",,,43,No,NicholasCage.gif
 1970,117,Catch Twenty-Two,Comedy,"Arkin, Alan",,"Nichols, Mike",50,No,NicholasCage.gif
 1961,113,Ferry to Hong Kong,Drama,"Welles, Orson",,"Gilbert, Lewis",77,No,NicholasCage.gif
-1988,78,Hot Money,Drama,"Welles, Orson",,Missing,19,No,NicholasCage.gif
-1968,173,Is Paris Burning?,War,"Belmondo, Jean-Paul",,Missing,34,No,NicholasCage.gif
+1988,78,Hot Money,Drama,"Welles, Orson",,,19,No,NicholasCage.gif
+1968,173,Is Paris Burning?,War,"Belmondo, Jean-Paul",,,34,No,NicholasCage.gif
 1948,87,Lady from Shanghai,Mystery,"Hayworth, Rita",,"Wells, Orson",16,No,NicholasCage.gif
 1992,112,Macbeth,Drama,"Welles, Orson","Nolan, Jeanette",,45,No,NicholasCage.gif
 1955,100,Mr. Arkadin,Drama,"Welles, Orson","Mori, Paola","Welles, Orson",80,No,NicholasCage.gif
@@ -1556,9 +1556,9 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1985,104,Desperately Seeking Susan,Comedy,"Quinn, Aidan","Arquette, Rosanna","Seidelman, Susan",41,No,NicholasCage.gif
 1990,105,Dick Tracy,Comedy,"Beatty, Warren","Headley, Glenne","Beatty, Warren",84,No,NicholasCage.gif
 1990,60,"Immaculate Collection, The",Music,,Madonna,,32,No,NicholasCage.gif
-1992,,"Madonna, A Certain Sacrifice",Music,Missing,Madonna,,55,No,NicholasCage.gif
+1992,,"Madonna, A Certain Sacrifice",Music,,Madonna,,55,No,NicholasCage.gif
 1991,16,"Madonna, Like a Virgin",Music,,Madonna,,63,No,NicholasCage.gif
-1992,,"Madonna, A Certain Sacrifice",Music,Missing,Madonna,,42,No,NicholasCage.gif
+1992,,"Madonna, A Certain Sacrifice",Music,,Madonna,,42,No,NicholasCage.gif
 1990,5,"Madonna, Justify My Love",Music,,Madonna,,77,No,NicholasCage.gif
 1987,50,"Madonna Live, The Virgin Tour",Music,,Madonna,,75,No,NicholasCage.gif
 1991,118,"Madonna, Truth or Dare",Music,,Madonna,"Keshishian, Alek",54,No,NicholasCage.gif
@@ -1579,7 +1579,7 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1988,138,Pelle the Conqueror,Drama,"Sydow, Max Von",,"August, Bille",14,Yes,NicholasCage.gif
 1986,120,Platoon,Drama,"Sheen, Charlie",,"Stone, Oliver",8,Yes,NicholasCage.gif
 1988,134,Rain Man,Drama,"Hoffman, Dustin","Golino, Valeria","Levinson, Barry",8,Yes,NicholasCage.gif
-1989,100,Reversal of Fortune,Drama,"Close, Glenn",,Missing,81,Yes,NicholasCage.gif
+1989,100,Reversal of Fortune,Drama,"Close, Glenn",,,81,Yes,NicholasCage.gif
 1991,118,The Silence of the Lambs,Mystery,"Hopkins, Anthony","Foster, Jodie","Demme, Jonathan",8,Yes,AnthonyHopkins.gif
 1987,126,Wall Street,Drama,"Douglas, Michael","Hannah, Daryl","Stone, Oliver",6,Yes,NicholasCage.gif
 1984,158,Amadeus,Drama,"Abraham, F. Murray","Berridge, Elizabeth","Tharp, Milos Forman",6,Yes,NicholasCage.gif
@@ -1605,7 +1605,7 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1983,132,Terms of Endearment,Drama,"Nicholson, Jack","MacLaine, Shirley","L, James",32,Yes,JackNicholson.gif
 1982,116,Tootsie,Comedy,"Hoffman, Dustin","Garr, Teri","Pollack, Sydney",8,Yes,NicholasCage.gif
 1985,108,The Trip to Bountiful,Drama,"Heard, John","Page, Geraldine","Masterson, Peter",62,Yes,NicholasCage.gif
-1989,101,"Sex, Lies, & Videotape",Drama,,Missing,,64,Yes,NicholasCage.gif
+1989,101,"Sex, Lies, & Videotape",Drama,,,,64,Yes,NicholasCage.gif
 1988,83,Doin' Time on Planet Earth,Comedy,"Freeman, Morgan","Tandy, Jessica","Beresford, Bruce",74,Yes,NicholasCage.gif
 1970,137,Airport,Drama,"Lancaster, Burt","Bisset, Jacqueline","Seaton,, George",0,Yes,NicholasCage.gif
 1975,112,Alice Doesn't Live Here Anymore,Comedy,"Kristofferson, Kris","Burstyn, Ellen",,82,Yes,NicholasCage.gif
@@ -1624,7 +1624,7 @@ year,length,title,subject,actor,actress,director,popularity,awards,image
 1973,116,Day for Night,Drama,"Aumont, Jean-Pierre","Bisset, Jacqueline","Truffaut, Francois",10,Yes,NicholasCage.gif
 1976,124,Dersu Uzala: (The Hunter),Action,"Munzak, Maxim",,"Kurosawa, Akira",58,Yes,NicholasCage.gif
 1963,138,Eight & a Half,Drama,"Mastroianni, Marcello","Cardinale, Claudia","Fellini, Federico",45,Yes,NicholasCage.gif
-1963,138,Eight & a Half,Drama,,Missing,"Fellini, Federico",59,Yes,NicholasCage.gif
+1963,138,Eight & a Half,Drama,,,"Fellini, Federico",59,Yes,NicholasCage.gif
 1966,126,The Fortune Cookie,Comedy,"Lemmon, Jack","West, Judi","Wilder, Billy",3,Yes,NicholasCage.gif
 1971,104,The French Connection,Drama,"Hackman, Gene",,"Friedkin, William",88,Yes,NicholasCage.gif
 1968,151,Funny Girl,Music,"Sharif, Omar","Streisand, Barbra","Wyler, William",30,Yes,NicholasCage.gif
