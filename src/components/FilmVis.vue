@@ -26,6 +26,7 @@
       </table>
       <table>
         <tr> <th>         </th> <th>Director                    </th> <th>Actor                       </th> <th>Actress                     </th> </tr>
+        <tr> <th>#Movies  </th> <td> {{ dirNumMovies }}         </td> <td> {{ atrNumMovies }}         </td> <td> {{ atsNumMovies }}         </td> </tr>
         <tr> <th>Name     </th> <td> {{ focused.director }}     </td> <td> {{ focused.actor }}        </td> <td> {{ focused.actress }}      </td> </tr>
         <tr> <th>Genres   </th> <td> <svg id="dir-genre"></svg> </td> <td> <svg id="atr-genre"></svg> </td> <td> <svg id="ats-genre"></svg> </td> </tr>
         <tr> <th>Ratings  </th> <td> <svg id="dir-rate"></svg>  </td> <td> <svg id="atr-rate"></svg>  </td> <td> <svg id="ats-rate"></svg>  </td> </tr>
@@ -69,6 +70,9 @@ export default {
       vis3: null,
       dataGroup: null,
       categories: new Set(),
+      dirNumMovies: 0,
+      atrNumMovies: 0,
+      atsNumMovies: 0,
       actors: {},
       actresses: {},
       directors: {},
@@ -180,17 +184,22 @@ export default {
     },
     focusMovie: function(d) {
       this.focused = d
-      this.drawPersonGenre(this.directors, d.director, '#dir-genre')
-      this.drawPersonGenre(this.actors   , d.actor   , '#atr-genre')
-      this.drawPersonGenre(this.actresses, d.actress , '#ats-genre')
+      this.drawPersonGenre(this.directors, d.director, '#dir-genre', 'dirNumMovies')
+      this.drawPersonGenre(this.actors   , d.actor   , '#atr-genre', 'atrNumMovies')
+      this.drawPersonGenre(this.actresses, d.actress , '#ats-genre', 'atsNumMovies')
+      this.drawPersonRating(this.directors, d.director, '#dir-rate')
+      this.drawPersonRating(this.actors   , d.actor   , '#atr-rate')
+      this.drawPersonRating(this.actresses, d.actress , '#ats-rate')
     },
     colorFromGenre: function(genre) {
       //console.log(d3.schemeCategory10);
       return d3.schemeCategory10[Array.from(this.categories).indexOf(genre)];
     },
-    drawPersonGenre: function(personType, personName, svgId) {
+    drawPersonGenre: function(personType, personName, svgId, numMoviesProp) {
         d3.select(svgId).html('')
         if (personName === '') return;
+
+        this[numMoviesProp] = personType[personName].movies;
 
         // Create dummy data
         var data = personType[personName].genres;
@@ -215,6 +224,55 @@ export default {
         var color = d3.scaleOrdinal()
           .domain(this.categories)
           .range(d3.schemeCategory10)
+
+        // Compute the position of each group on the pie:
+        var pie = d3.pie()
+          .value(function(d) {return d.value; })
+        var data_ready = pie(d3.entries(data))
+
+        // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
+        svg
+          .selectAll('whatever')
+          .data(data_ready)
+          .enter()
+          .append('path')
+          .attr('d', d3.arc()
+            .innerRadius(0)
+            .outerRadius(radius)
+          )
+          .attr('fill', function(d){ return(color(d.data.key)) })
+          .attr("stroke", "black")
+          .style("stroke-width", "2px")
+          .style("opacity", 0.7)
+    },
+    drawPersonRating: function(personType, personName, svgId) {
+        d3.select(svgId).html('')
+        if (personName === '') return;
+
+        // Create dummy data
+        var stars = personType[personName].stars
+        var data = {one:stars[0], two:stars[1], three:stars[2], four:stars[3], five: stars[4]};
+
+        // set the dimensions and margins of the graph
+        var width = 100,
+            height = 100,
+            margin = 8;
+
+        // The radius of the pieplot is half the width or half the height (smallest one). I subtract a bit of margin.
+        var radius = (Math.min(width, height) / 2 - margin)
+
+        // append the svg object to the div called 'my_dataviz'
+        var svg = d3.select(svgId)
+          .append("svg")
+            .attr("width", width)
+            .attr("height", height)
+          .append("g")
+            .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+
+        // set the color scale
+        var color = d3.scaleOrdinal()
+          .domain(['one', 'two', 'three', 'four', 'five'])
+          .range(d3.schemeRdYlGn[5])
 
         // Compute the position of each group on the pie:
         var pie = d3.pie()
