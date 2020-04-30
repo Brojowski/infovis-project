@@ -1,11 +1,23 @@
 <template>
-  <div>
-    <h1>Film</h1>
+  <div class="grid-container">
+
+    <div id="header">
+      <h1>Film</h1>
+      <autocomplete id="movieSearch" :search="searchMovie" @submit="submitMovieSearch"></autocomplete>
+    </div>
+
+    <div id="genreKey">
+      <div v-for="genre in categories" v-bind:key="genre">
+        <div v-bind:style="{background: colorFromGenre(genre) }"> {{ genre }} </div>
+      </div>
+    </div>
+
     <svg id="vis3">
     </svg>
+
     <div id="focusbox">
       <h1> {{ focused.title }} </h1>
-      <table>
+      <table class="movieDetails">
       <tr><td><b> Year        </b></td><td> {{ focused.year }}        </td></tr>
       <tr><td><b> Length      </b></td><td> {{ focused.length }}      </td></tr>
       <tr><td><b> Subject     </b></td><td> {{ focused.subject }}     </td></tr>
@@ -19,32 +31,18 @@
         <tr> <th>Ratings  </th> <td> <svg id="dir-rate"></svg>  </td> <td> <svg id="atr-rate"></svg>  </td> <td> <svg id="ats-rate"></svg>  </td> </tr>
       </table>
     </div>
-    <!--<div>
-      <h1> Categories </h1>
-      <div v-for="(value, propertyName) in categories" v-bind:key="(value, propertyName)">
-        <input type="checkbox" v-model="categories[propertyName]"> {{ propertyName}}
-      </div>
-    </div>-->
-
-    <h2> Description </h2>
-    <p>
-      This visualization displays the movies by time and popularity. The x-axis represents the year produced, the y axis how popular the movie was. 
-      The different colors represent the category the movie comes from.
-      The alpha value represents the the length of the movie.
-      Additionally, when the user hovers over a movie, the details are put in the box below the graph.
-    </p>
-    <p>
-      Using this visualization, the user is able to see the that over time, movies have tended to get longer. Unfortunatly for movie produces, one of 
-      the more vivid areas is down in the bottom right corner. This indicates that there are many long movies that are not well rated.
-    </p>
   </div>
 </template>
 
 <script>
 import * as d3 from 'd3';
+import Autocomplete from '@trevoreyre/autocomplete-vue'
 
 export default {
   name: 'FilmVis',
+  components: {
+    Autocomplete
+  },
   mounted: function() {
     this.vis3 = d3.select('#vis3')
         .attr('width', this.svgWidth)
@@ -62,7 +60,7 @@ export default {
     let pieRadius = 50;
     return {
       data: [],
-      svgWidth: 750,
+      svgWidth: 1500,
       svgHeight: 500,
       pieRadius: pieRadius,
       xProp: "year",
@@ -74,6 +72,7 @@ export default {
       actors: {},
       actresses: {},
       directors: {},
+      movieTitles: [],
       focused: {
          year: "",
          length: "",
@@ -142,6 +141,7 @@ export default {
         d.year = +d.year;
         d.length = +d.length;
         d.popularity = +d.popularity;
+        this.movieTitles.push(d.title);
         this.categories.add(d.subject)
         this.recordPerson(this.directors, d.director, d)
         this.recordPerson(this.actors,    d.actor   , d)
@@ -171,11 +171,22 @@ export default {
         personType[personName].genres[d.subject] += 1;
       }
     },
+    searchMovie: function(searchText) {
+      return this.movieTitles.filter( title => title.toLowerCase().indexOf(searchText.toLowerCase()) !== -1)
+    },
+    submitMovieSearch: function(searchText) {
+      let d = this.data.filter( d => d.title === searchText)[0]
+      this.focusMovie(d);
+    },
     focusMovie: function(d) {
       this.focused = d
       this.drawPersonGenre(this.directors, d.director, '#dir-genre')
       this.drawPersonGenre(this.actors   , d.actor   , '#atr-genre')
       this.drawPersonGenre(this.actresses, d.actress , '#ats-genre')
+    },
+    colorFromGenre: function(genre) {
+      //console.log(d3.schemeCategory10);
+      return d3.schemeCategory10[Array.from(this.categories).indexOf(genre)];
     },
     drawPersonGenre: function(personType, personName, svgId) {
         d3.select(svgId).html('')
@@ -231,8 +242,44 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
+  grid-gap: 10px;
+}
+
+#header {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+#genreKey {
+  grid-column-start: 5;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
 #focusbox {
   background-color: grey;
+  grid-column-start: 5;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+#vis3 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.movieDetails {
+  margin: auto auto;
 }
 
 </style>
