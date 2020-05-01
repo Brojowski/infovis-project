@@ -25,24 +25,40 @@
       <tr><td><b> Awards      </b></td><td> {{ focused.awards }}      </td></tr>
       </table>
       <table>
-        <tr> <th>         </th> <th>Director                    </th> <th>Actor                       </th> <th>Actress                     </th> </tr>
+        <tr> <th>         </th> <th> Director                   </th> <th> Actor                      </th> <th> Actress                    </th> </tr>
         <tr> <th>#Movies  </th> <td> {{ dirNumMovies }}         </td> <td> {{ atrNumMovies }}         </td> <td> {{ atsNumMovies }}         </td> </tr>
         <tr> <th>Name     </th> <td> {{ focused.director }}     </td> <td> {{ focused.actor }}        </td> <td> {{ focused.actress }}      </td> </tr>
         <tr> <th>Genres   </th> <td> <svg id="dir-genre"></svg> </td> <td> <svg id="atr-genre"></svg> </td> <td> <svg id="ats-genre"></svg> </td> </tr>
         <tr> <th>Ratings  </th> <td> <svg id="dir-rate"></svg>  </td> <td> <svg id="atr-rate"></svg>  </td> <td> <svg id="ats-rate"></svg>  </td> </tr>
       </table>
     </div>
+    
+    <div id="trendsHeader">
+      <h3> Hollywood Trends </h3>
+      <select v-model="trendFilterType">
+        <option value=""        >All Movies</option>
+        <option value="director">Director</option>
+        <option value="actor"   >Actor</option>
+        <option value="actor"   >Actress</option>
+      </select>
+      <autocomplete :search="searchTrendOptions" @submit="submitTrendSearch"></autocomplete>
+    </div>
+    
+    <D3LineChart id="trendsChart" :config="trendConfig" :datum="trendData" ></D3LineChart>
+    
   </div>
 </template>
 
 <script>
 import * as d3 from 'd3';
 import Autocomplete from '@trevoreyre/autocomplete-vue'
+import { D3LineChart } from 'vue-d3-charts'
 
 export default {
   name: 'FilmVis',
   components: {
-    Autocomplete
+    Autocomplete,
+    D3LineChart
   },
   mounted: function() {
     this.vis3 = d3.select('#vis3')
@@ -62,7 +78,7 @@ export default {
     return {
       data: [],
       svgWidth: 1500,
-      svgHeight: 500,
+      svgHeight: 700,
       pieRadius: pieRadius,
       xProp: "year",
       yProp: "popularity"  ,
@@ -89,7 +105,52 @@ export default {
          awards: "",
       },
       pie: d3.pie().sort(null),
-      arc: d3.arc().innerRadius(0).outerRadius(pieRadius)
+      arc: d3.arc().innerRadius(0).outerRadius(pieRadius),
+      trendFilterType: '',
+      trendFilterValue: '',
+      trendData: [],
+      trendConfig: {
+        date: {
+          key: 'when',
+          inputFormat: "%Y",
+          outputFormat: "%Y",
+        },
+        values: [ "Drama", "Action", "Comedy", "War", "Music", "Science Fiction", "Mystery", "Horror", "Westerns" ],
+        axis: {
+          yTitle: false,
+          xTitle: false,
+          yFormat: ".0f",
+          xFormat: "%Y-%m-%d",
+          yTicks: 5,
+          xTicks: 3
+        },
+        color: {
+          key: false,
+          keys: [ "Drama", "Action", "Comedy", "War", "Music", "Science Fiction", "Mystery", "Horror", "Westerns" ],
+          scheme: d3.schemeCategory10,
+          current: "#1f77b4",
+          default: "#AAA",
+          axis: "#000",
+        },
+        curve: "curveLinear",
+        margin: {
+          top: 20,
+          right: 20,
+          bottom: 20,
+          left: 40
+        },
+        points: {
+          visibleSize: 3,
+          hoverSize: 6,
+        },
+        tooltip: {
+          labels: false,
+        },
+        transition: {
+          duration: 350,
+          ease: "easeLinear",
+        },
+      }
     };
   },
   methods: {
@@ -98,6 +159,7 @@ export default {
       console.log(data[0]);
       this.data = data;
       this.renderFilms()
+      this.filterTrends('', '');
     },
     renderFilms: function() {
         let data = this.data;
@@ -121,7 +183,7 @@ export default {
         circles.enter().append('circle')
             .attr('cx', (d) => xScale(d[this.xProp]))
             .attr('cy', (d) => yScale(d[this.yProp]))
-            .attr('r', 2)
+            .attr('r', 4)
             .style('fill', (d) => {
               return d3.color(colorScale(d.subject)).copy({ opacity: alphaScale(d[this.colorProp]) })
             })
@@ -293,6 +355,63 @@ export default {
           .attr("stroke", "black")
           .style("stroke-width", "2px")
           .style("opacity", 0.7)
+    },
+    getYear: function (years, year) {
+      var theYear = years[year]
+      if (theYear === undefined) {
+        theYear = {
+          when: year
+        };
+        let categories = Array.from(this.categories)
+        for (var i = 0; i < categories.length; i++) {
+          theYear[categories[i]] = 0;
+        }
+        years[year] = theYear;
+      }
+      return theYear;
+    },
+    filterTrends: function(filterProp, filterText) {
+      // Filter data
+      let data = this.data
+      if (filterText !== '') {
+        data = data.filter(d => d[filterProp] === filterText);
+      }
+
+      // Aggregate Data
+      var years = {}
+      for (var i = 0; i < data.length; i++) {
+        let d = data[i];
+        let y = this.getYear(years, d.year)
+        y[d.subject] += 1;
+      }
+
+      let trends = []
+      // Sort by year
+      for (let y in years) {
+        trends.push(years[y])
+      }
+      console.log(trends)
+
+      this.trendData = trends;
+    },
+    searchTrendOptions: function(searchText) {
+      let names = [];
+      switch (this.trendFilterType) {
+        case 'director':
+          names = Object.keys(this.directors);
+          break;
+        case 'actor':
+          names = Object.keys(this.actors);
+          break;
+        case 'actress':
+          names = Object.keys(this.actresses);
+          break;
+      }
+      let lcSearchText = searchText.toLowerCase();
+      return names.filter(n => n.toLowerCase().indexOf(lcSearchText) !== -1)
+    },
+    submitTrendSearch: function(searchText) {
+      this.filterTrends(this.trendFilterType, searchText);
     }
   }
 }
@@ -330,6 +449,7 @@ export default {
 }
 
 #vis3 {
+  border: solid black 1px;
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 2;
@@ -340,4 +460,18 @@ export default {
   margin: auto auto;
 }
 
-</style>
+#trendsHeader {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 4;
+}
+
+#trendsChart {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 5;
+}
+
+</style> 
