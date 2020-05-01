@@ -46,6 +46,24 @@
     
     <D3LineChart id="trendsChart" :config="trendConfig" :datum="trendData" ></D3LineChart>
     
+    <div id="roleHeader">
+      <h3> Most Influential</h3>
+      <select v-model="influenceGenre" @change="updateInfluences">
+        <option value='overall'> Overall </option>
+        <option v-for="genre in Array.from(categories)" v-bind:key="genre" :value="genre">
+          {{ genre }}
+        </option>
+      </select>{{ influenceGenre }}
+    </div>
+
+    <div id="roleContainer">
+      <table>
+        <tr> <th> Director  </th> <td> <svg id="inf1"></svg> </td> <td id="names1"> </td> </tr>
+        <tr> <th> Actor     </th> <td> <svg id="inf2"></svg> </td> <td id="names2"> </td> </tr>
+        <tr> <th> Actress   </th> <td> <svg id="inf3"></svg> </td> <td id="names3"> </td> </tr>
+      </table>
+    </div>
+
   </div>
 </template>
 
@@ -53,6 +71,7 @@
 import * as d3 from 'd3';
 import Autocomplete from '@trevoreyre/autocomplete-vue'
 import { D3LineChart } from 'vue-d3-charts'
+import { RadarChart } from './radarchart';
 
 export default {
   name: 'FilmVis',
@@ -150,7 +169,9 @@ export default {
           duration: 350,
           ease: "easeLinear",
         },
-      }
+      },
+      influenceGenre: 'overall',
+      influenceCache: {}
     };
   },
   methods: {
@@ -160,6 +181,7 @@ export default {
       this.data = data;
       this.renderFilms()
       this.filterTrends('', '');
+      this.updateInfluences()
     },
     renderFilms: function() {
         let data = this.data;
@@ -412,6 +434,106 @@ export default {
     },
     submitTrendSearch: function(searchText) {
       this.filterTrends(this.trendFilterType, searchText);
+    },
+    calcInfluence: function (role) {
+      if (this.influenceCache[role] !== undefined) {
+        return this.influenceCache[role];
+      }
+
+      let data = this.data;
+      let categories = Array.from(this.categories);
+      var influence = {}
+      for (var i = 0; i < data.length; i++) {
+        let d = data[i];
+        let name = d[role];
+        if (name === '') continue;
+
+        var person = influence[name];
+        if (person === undefined) {
+          person = { 
+            name: name,
+            sumRatings: {
+              overall: 0
+            },
+            numMovies: {
+              overall: 0
+            },
+            avgRating: {
+              overall: 0
+            }
+          }
+          for (i = 0; i < categories.length; i++) {
+            person.sumRatings[categories[i]] = 0;
+            person.numMovies[categories[i]] = 0;
+            person.avgRating[categories[i]] = 0;
+          }
+          influence[name] = person;
+        }
+
+        person.numMovies.overall++;
+        person.numMovies[d.subject]++;
+        person.sumRatings[d.subject] += (d.popularity / 100);
+      }
+
+      for (let name in influence) {
+        let sumAvgs = 0;
+        person = influence[name];
+        for (i = 0; i < categories.length; i++) {
+          let genre = categories[i];
+          person.avgRating[genre] = person.sumRatings[genre] / person.numMovies[genre];
+          if (Number.isNaN(person.avgRating[genre])) {
+            person.avgRating[genre] = 0;
+          }
+          sumAvgs += person.avgRating[genre];
+        }
+
+        person.avgRating.overall = sumAvgs / categories.length;
+      }
+
+      let dirs = [];
+      for (var name in influence) {
+        dirs.push(influence[name]);
+      }
+
+      this.influenceCache[role] = dirs
+
+      return dirs;
+    },
+    showInfluential: function(role, svgId, namesId) {
+      let dirs = this.calcInfluence(role);
+      
+      dirs = dirs
+          .sort((d1, d2) => 1 - d1.avgRating[this.influenceGenre] > 1 - d2.avgRating[this.influenceGenre])
+          .slice(0, 4)
+
+      let props = ['overall'].concat(Array.from(this.categories));
+
+      let radars = dirs.map(r => {
+        return props.map( prop => { 
+          return { axis: prop, value: r.avgRating[prop]}
+        });
+      });
+
+      //console.log(radars);
+
+      d3.select(svgId)
+          .attr('width', 700)
+          .attr('height', 700)
+      
+      RadarChart.draw(svgId, radars);
+
+      
+      let target = document.getElementById(namesId);
+      let htmls = dirs.map( (d,i) => '<b style="background-color: ' + d3.schemeCategory10[i] + ';">' + i+1 + "." + d.name + '</b><br>')
+      target.innerHTML = "";
+      for (var i = 0; i < htmls.length; i++) {
+        target.innerHTML += htmls[i];
+      }
+    },
+    updateInfluences: function() {
+      this.showInfluential('director' , '#inf1', 'names1');
+      this.showInfluential('actor'    , '#inf2', 'names2');
+      this.showInfluential('actress'  , '#inf3', 'names3');
     }
   }
 }
@@ -474,4 +596,18 @@ export default {
   grid-row-end: 5;
 }
 
+#roleHeader {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 6;
+  grid-row-end: 6;
+}
+
+#roleContainer {
+
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 7;
+  grid-row-end: 7;
+}
 </style> 
